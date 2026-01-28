@@ -1,0 +1,16 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 100
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    left_leg_position_controller:
+      type: position_controllers/JointGroupPositionController
+
+left_leg_position_controller:
+  ros__parameters:
+    joints:
+      - left_hip_pitch
+      - left_knee_pitch
+      - left_ankle_pitch

@@ -1,0 +1,89 @@
+[0.264s] Invoking command in '/home/issatay/Desktop/unitree_ws/build/g1_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/issatay/Desktop/unitree_ws/install/g1_gz_spawn:/home/issatay/Desktop/unitree_ws/install/g1_bringup:/opt/ros/humble /usr/bin/cmake /home/issatay/Desktop/unitree_ws/src/g1_description -DCMAKE_INSTALL_PREFIX=/home/issatay/Desktop/unitree_ws/install/g1_description
+[0.576s] -- The C compiler identification is GNU 11.4.0
+[0.576s] -- The CXX compiler identification is GNU 11.4.0
+[0.576s] -- Detecting C compiler ABI info
+[0.576s] -- Detecting C compiler ABI info - done
+[0.576s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.576s] -- Detecting C compile features
+[0.577s] -- Detecting C compile features - done
+[0.577s] -- Detecting CXX compiler ABI info
+[0.578s] -- Detecting CXX compiler ABI info - done
+[0.579s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.580s] -- Detecting CXX compile features
+[0.580s] -- Detecting CXX compile features - done
+[0.582s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.784s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.995s] -- Configuring done
+[0.999s] -- Generating done
+[1.001s] -- Build files have been written to: /home/issatay/Desktop/unitree_ws/build/g1_description
+[1.010s] Invoked command in '/home/issatay/Desktop/unitree_ws/build/g1_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/issatay/Desktop/unitree_ws/install/g1_gz_spawn:/home/issatay/Desktop/unitree_ws/install/g1_bringup:/opt/ros/humble /usr/bin/cmake /home/issatay/Desktop/unitree_ws/src/g1_description -DCMAKE_INSTALL_PREFIX=/home/issatay/Desktop/unitree_ws/install/g1_description
+[1.013s] Invoking command in '/home/issatay/Desktop/unitree_ws/build/g1_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/issatay/Desktop/unitree_ws/install/g1_gz_spawn:/home/issatay/Desktop/unitree_ws/install/g1_bringup:/opt/ros/humble /usr/bin/cmake --build /home/issatay/Desktop/unitree_ws/build/g1_description -- -j16 -l16
+[1.063s] Invoked command in '/home/issatay/Desktop/unitree_ws/build/g1_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/issatay/Desktop/unitree_ws/install/g1_gz_spawn:/home/issatay/Desktop/unitree_ws/install/g1_bringup:/opt/ros/humble /usr/bin/cmake --build /home/issatay/Desktop/unitree_ws/build/g1_description -- -j16 -l16
+[1.076s] Invoking command in '/home/issatay/Desktop/unitree_ws/build/g1_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/issatay/Desktop/unitree_ws/install/g1_gz_spawn:/home/issatay/Desktop/unitree_ws/install/g1_bringup:/opt/ros/humble /usr/bin/cmake --install /home/issatay/Desktop/unitree_ws/build/g1_description
+[1.086s] -- Install configuration: ""
+[1.086s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/launch
+[1.086s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/launch/check_joint.rviz
+[1.086s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/launch/gazebo.launch
+[1.086s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/launch/display.launch
+[1.086s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/meshes
+[1.086s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/meshes/right_shoulder_roll_link.STL
+[1.089s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/meshes/left_knee_link.STL
+[1.089s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/meshes/logo_link.STL
+[1.089s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/meshes/pelvis_contour_link.STL
+[1.091s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/meshes/left_wrist_roll_rubber_hand.STL
+[1.097s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/meshes/right_wrist_roll_rubber_hand.STL
+[1.102s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/meshes/left_shoulder_yaw_link.STL
+[1.102s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/meshes/torso_link.STL
+[1.106s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/meshes/waist_yaw_link.STL
+[1.106s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/meshes/waist_support_link.STL
+[1.107s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/meshes/right_shoulder_pitch_link.STL
+[1.108s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/meshes/left_wrist_pitch_link.STL
+[1.108s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/meshes/right_knee_link.STL
+[1.109s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/meshes/right_wrist_pitch_link.STL
+[1.109s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/meshes/left_wrist_roll_link.STL
+[1.110s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/meshes/right_shoulder_yaw_link.STL
+[1.111s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/meshes/left_shoulder_pitch_link.STL
+[1.111s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/meshes/head_link.STL
+[1.113s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/meshes/right_hip_yaw_link.STL
+[1.113s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/meshes/right_wrist_yaw_link.STL
+[1.114s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/meshes/right_rubber_hand.STL
+[1.118s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/meshes/right_hip_roll_link.STL
+[1.118s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/meshes/left_rubber_hand.STL
+[1.122s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/meshes/left_ankle_pitch_link.STL
+[1.122s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/meshes/right_ankle_roll_link.STL
+[1.124s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/meshes/pelvis.STL
+[1.125s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/meshes/left_ankle_roll_link.STL
+[1.126s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/meshes/left_hip_pitch_link.STL
+[1.126s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/meshes/waist_roll_link.STL
+[1.126s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/meshes/right_ankle_pitch_link.STL
+[1.126s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/meshes/right_hip_pitch_link.STL
+[1.127s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/meshes/left_elbow_link.STL
+[1.127s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/meshes/left_wrist_yaw_link.STL
+[1.128s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/meshes/right_wrist_roll_link.STL
+[1.128s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/meshes/left_hip_roll_link.STL
+[1.129s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/meshes/left_hip_yaw_link.STL
+[1.129s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/meshes/right_elbow_link.STL
+[1.130s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/meshes/left_shoulder_roll_link.STL
+[1.134s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/rsdf
+[1.134s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/rsdf/right_ankle_link.rsdf
+[1.134s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/rsdf/left_ankle_link.rsdf
+[1.134s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/urdf
+[1.134s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/urdf/g1_23dof.urdf
+[1.135s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/urdf/g1_29dof.urdf
+[1.135s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/ament_index/resource_index/package_run_dependencies/g1_description
+[1.135s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/ament_index/resource_index/parent_prefix_path/g1_description
+[1.135s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/environment/ament_prefix_path.sh
+[1.135s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/environment/ament_prefix_path.dsv
+[1.135s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/environment/path.sh
+[1.135s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/environment/path.dsv
+[1.135s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/local_setup.bash
+[1.136s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/local_setup.sh
+[1.136s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/local_setup.zsh
+[1.136s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/local_setup.dsv
+[1.136s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/package.dsv
+[1.136s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/ament_index/resource_index/packages/g1_description
+[1.136s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/cmake/g1_description_INSTALL_PREFIX.cmake
+[1.136s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/cmake/g1_descriptionConfig.cmake
+[1.136s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/cmake/g1_descriptionConfig-version.cmake
+[1.136s] -- Installing: /home/issatay/Desktop/unitree_ws/install/g1_description/share/g1_description/package.xml
+[1.139s] Invoked command in '/home/issatay/Desktop/unitree_ws/build/g1_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/issatay/Desktop/unitree_ws/install/g1_gz_spawn:/home/issatay/Desktop/unitree_ws/install/g1_bringup:/opt/ros/humble /usr/bin/cmake --install /home/issatay/Desktop/unitree_ws/build/g1_description

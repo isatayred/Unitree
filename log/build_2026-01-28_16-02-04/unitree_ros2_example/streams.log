@@ -1,0 +1,218 @@
+[0.029s] Invoking command in '/home/issatay/Desktop/unitree_ws/build/unitree_ros2_example': CMAKE_PREFIX_PATH=/home/issatay/Desktop/unitree_ws/install/unitree_hg:/home/issatay/Desktop/unitree_ws/install/unitree_go:/home/issatay/Desktop/unitree_ws/install/unitree_api:/home/issatay/Desktop/unitree_ws/install/unitree_ros2_example:/home/issatay/Desktop/unitree_ws/install/g1_description:/home/issatay/Desktop/unitree_ws/install/unitree_sdk2:/home/issatay/Desktop/unitree_ws/install/g1_gz_spawn:/home/issatay/Desktop/unitree_ws/install/g1_bringup:/opt/ros/humble /usr/bin/cmake /home/issatay/Desktop/unitree_ws/src/unitree_ros2/example/src -DCMAKE_INSTALL_PREFIX=/home/issatay/Desktop/unitree_ws/install/unitree_ros2_example
+[0.139s] -- The C compiler identification is GNU 11.4.0
+[0.244s] -- The CXX compiler identification is GNU 11.4.0
+[0.255s] -- Detecting C compiler ABI info
+[0.383s] -- Detecting C compiler ABI info - done
+[0.395s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.396s] -- Detecting C compile features
+[0.396s] -- Detecting C compile features - done
+[0.402s] -- Detecting CXX compiler ABI info
+[0.554s] -- Detecting CXX compiler ABI info - done
+[0.568s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.568s] -- Detecting CXX compile features
+[0.568s] -- Detecting CXX compile features - done
+[0.575s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.878s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.033s] -- Found unitree_go: 0.0.0 (/home/issatay/Desktop/unitree_ws/install/unitree_go/share/unitree_go/cmake)
+[1.109s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.119s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.136s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.163s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.191s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.285s] -- Found unitree_hg: 0.0.0 (/home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/cmake)
+[1.308s] -- Found unitree_api: 0.0.0 (/home/issatay/Desktop/unitree_ws/install/unitree_api/share/unitree_api/cmake)
+[1.336s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[1.411s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.417s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.601s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.653s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.730s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.746s] -- Looking for pthread.h
+[1.875s] -- Looking for pthread.h - found
+[1.876s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.011s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.012s] -- Found Threads: TRUE  
+[2.080s] -- Found rosbag2_cpp: 0.15.15 (/opt/ros/humble/share/rosbag2_cpp/cmake)
+[2.236s] -- Found yaml-cpp version 0.7.0
+[2.242s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.349s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.358s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.361s] -- Configured cppcheck include dirs: /home/issatay/Desktop/unitree_ws/src/unitree_ros2/example/src/include;/home/issatay/Desktop/unitree_ws/src/unitree_ros2/example/src/include/common;/home/issatay/Desktop/unitree_ws/src/unitree_ros2/example/src/include/nlohmann
+[2.361s] -- Configured cppcheck exclude dirs and/or files: 
+[2.370s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.371s] -- Configured cpplint exclude dirs and/or files: 
+[2.374s] -- Added test 'lint_cmake' to check CMake code style
+[2.382s] -- Added test 'uncrustify' to check C / C++ code style
+[2.382s] -- Configured uncrustify additional arguments: 
+[2.384s] -- Added test 'xmllint' to check XML markup files
+[2.386s] -- Configuring done
+[2.525s] -- Generating done
+[2.572s] -- Build files have been written to: /home/issatay/Desktop/unitree_ws/build/unitree_ros2_example
+[2.596s] Invoked command in '/home/issatay/Desktop/unitree_ws/build/unitree_ros2_example' returned '0': CMAKE_PREFIX_PATH=/home/issatay/Desktop/unitree_ws/install/unitree_hg:/home/issatay/Desktop/unitree_ws/install/unitree_go:/home/issatay/Desktop/unitree_ws/install/unitree_api:/home/issatay/Desktop/unitree_ws/install/unitree_ros2_example:/home/issatay/Desktop/unitree_ws/install/g1_description:/home/issatay/Desktop/unitree_ws/install/unitree_sdk2:/home/issatay/Desktop/unitree_ws/install/g1_gz_spawn:/home/issatay/Desktop/unitree_ws/install/g1_bringup:/opt/ros/humble /usr/bin/cmake /home/issatay/Desktop/unitree_ws/src/unitree_ros2/example/src -DCMAKE_INSTALL_PREFIX=/home/issatay/Desktop/unitree_ws/install/unitree_ros2_example
+[2.597s] Invoking command in '/home/issatay/Desktop/unitree_ws/build/unitree_ros2_example': CMAKE_PREFIX_PATH=/home/issatay/Desktop/unitree_ws/install/unitree_hg:/home/issatay/Desktop/unitree_ws/install/unitree_go:/home/issatay/Desktop/unitree_ws/install/unitree_api:/home/issatay/Desktop/unitree_ws/install/unitree_ros2_example:/home/issatay/Desktop/unitree_ws/install/g1_description:/home/issatay/Desktop/unitree_ws/install/unitree_sdk2:/home/issatay/Desktop/unitree_ws/install/g1_gz_spawn:/home/issatay/Desktop/unitree_ws/install/g1_bringup:/opt/ros/humble /usr/bin/cmake --build /home/issatay/Desktop/unitree_ws/build/unitree_ros2_example -- -j16 -l16
+[2.671s] [  1%] [32mBuilding CXX object CMakeFiles/low_level_ctrl.dir/src/low_level_ctrl.cpp.o[0m
+[2.676s] [  5%] [32mBuilding CXX object CMakeFiles/low_level_ctrl_hg.dir/src/h1-2/lowlevel/low_level_ctrl_hg.cpp.o[0m
+[2.676s] [  5%] [32mBuilding CXX object CMakeFiles/g1_low_level_example.dir/src/g1/lowlevel/g1_low_level_example.cpp.o[0m
+[3.698s] [ 10%] [32mBuilding CXX object CMakeFiles/g1_ankle_swing_example.dir/src/g1/lowlevel/g1_ankle_swing_example.cpp.o[0m
+[3.698s] [ 10%] [32mBuilding CXX object CMakeFiles/g1_audio_client_example.dir/src/g1/audio_client/g1_audio_client_example.cpp.o[0m
+[3.698s] [ 10%] [32mBuilding CXX object CMakeFiles/g1_loco_client_example.dir/src/g1/high_level/loco_client_example.cpp.o[0m
+[4.234s] In file included from [01m[K/home/issatay/Desktop/unitree_ws/src/unitree_ros2/example/src/include/common/base_client.hpp:11[m[K,
+[4.234s]                  from [01m[K/home/issatay/Desktop/unitree_ws/src/unitree_ros2/example/src/include/g1/g1_loco_client.hpp:10[m[K,
+[4.234s]                  from [01m[K/home/issatay/Desktop/unitree_ws/src/unitree_ros2/example/src/src/g1/high_level/loco_client_example.cpp:3[m[K:
+[4.234s] [01m[K/home/issatay/Desktop/unitree_ws/src/unitree_ros2/example/src/include/common/ut_errror.hpp:13:59:[m[K [01;35m[Kwarning: [m[Kbackslash-newline at end of file
+[4.234s]    13 | #define UT_PRINT_ERR(code, error)                         \
+[4.234s]       |                                                            
+[4.244s] In file included from [01m[K/home/issatay/Desktop/unitree_ws/src/unitree_ros2/example/src/include/common/base_client.hpp:11[m[K,
+[4.244s]                  from [01m[K/home/issatay/Desktop/unitree_ws/src/unitree_ros2/example/src/include/g1/g1_audio_client.hpp:6[m[K,
+[4.244s]                  from [01m[K/home/issatay/Desktop/unitree_ws/src/unitree_ros2/example/src/src/g1/audio_client/g1_audio_client_example.cpp:11[m[K:
+[4.244s] [01m[K/home/issatay/Desktop/unitree_ws/src/unitree_ros2/example/src/include/common/ut_errror.hpp:13:59:[m[K [01;35m[Kwarning: [m[Kbackslash-newline at end of file
+[4.244s]    13 | #define UT_PRINT_ERR(code, error)                         \
+[4.244s]       |                                                            
+[4.721s] [ 12%] [32mBuilding CXX object CMakeFiles/g1_arm_action_example.dir/src/g1/high_level/g1_arm_action_example.cpp.o[0m
+[4.721s] [ 13%] [32mBuilding CXX object CMakeFiles/g1_dex3_example.dir/src/g1/dex3/g1_dex3_example.cpp.o[0m
+[4.930s] In file included from [01m[K/home/issatay/Desktop/unitree_ws/src/unitree_ros2/example/src/src/g1/high_level/g1_arm_action_example.cpp:11[m[K:
+[4.931s] [01m[K/home/issatay/Desktop/unitree_ws/src/unitree_ros2/example/src/include/common/ut_errror.hpp:13:59:[m[K [01;35m[Kwarning: [m[Kbackslash-newline at end of file
+[4.931s]    13 | #define UT_PRINT_ERR(code, error)                         \
+[4.931s]       |                                                            
+[5.740s] [ 15%] [32mBuilding CXX object CMakeFiles/go2_robot_state_client.dir/src/go2/go2_robot_state_client.cpp.o[0m
+[5.747s] [ 17%] [32mBuilding CXX object CMakeFiles/go2_stand_example.dir/src/go2/go2_stand_example.cpp.o[0m
+[5.747s] [ 18%] [32mBuilding CXX object CMakeFiles/g1_arm_sdk_dds_example.dir/src/g1/high_level/g1_arm_sdk_dds_example.cpp.o[0m
+[6.775s] [ 22%] [32mBuilding CXX object CMakeFiles/read_wireless_controller.dir/src/read_wireless_controller.cpp.o[0m
+[6.778s] [ 22%] [32mBuilding CXX object CMakeFiles/go2_sport_client.dir/src/go2/go2_sport_client.cpp.o[0m
+[7.828s] [ 24%] [32mBuilding CXX object CMakeFiles/read_motion_state.dir/src/read_motion_state.cpp.o[0m
+[7.837s] [ 25%] [32mBuilding CXX object CMakeFiles/read_low_state.dir/src/read_low_state.cpp.o[0m
+[7.838s] [ 27%] [32mBuilding CXX object CMakeFiles/read_low_state_hg.dir/src/read_low_state_hg.cpp.o[0m
+[11.162s] [ 29%] [32mBuilding CXX object CMakeFiles/low_level_ctrl.dir/src/common/motor_crc.cpp.o[0m
+[17.029s] [ 31%] [32m[1mLinking CXX executable low_level_ctrl[0m
+[17.452s] [ 31%] Built target low_level_ctrl
+[19.354s] [ 32%] [32mBuilding CXX object CMakeFiles/low_level_ctrl_hg.dir/src/common/motor_crc_hg.cpp.o[0m
+[19.392s] [ 34%] [32mBuilding CXX object CMakeFiles/g1_low_level_example.dir/src/common/motor_crc_hg.cpp.o[0m
+[21.646s] [ 36%] [32m[1mLinking CXX executable read_wireless_controller[0m
+[21.853s] [ 37%] [32mBuilding CXX object CMakeFiles/go2_stand_example.dir/src/common/motor_crc.cpp.o[0m
+[22.120s] [ 39%] [32mBuilding CXX object CMakeFiles/g1_arm_sdk_dds_example.dir/src/common/motor_crc.cpp.o[0m
+[22.413s] [ 41%] [32m[1mLinking CXX executable read_motion_state[0m
+[22.453s] [ 43%] [32m[1mLinking CXX executable read_low_state_hg[0m
+[22.567s] [ 43%] Built target read_wireless_controller
+[23.243s] [ 44%] [32m[1mLinking CXX executable read_low_state[0m
+[23.298s] [ 44%] Built target read_motion_state
+[23.365s] [ 44%] Built target read_low_state_hg
+[23.438s] [ 46%] [32mBuilding CXX object CMakeFiles/g1_dex3_example.dir/src/common/motor_crc.cpp.o[0m
+[23.446s] [ 48%] [32m[1mLinking CXX executable g1_audio_client_example[0m
+[24.086s] [ 50%] [32mBuilding CXX object CMakeFiles/g1_arm_action_example.dir/src/common/motor_crc.cpp.o[0m
+[24.116s] [ 50%] Built target read_low_state
+[24.470s] [ 50%] Built target g1_audio_client_example
+[24.550s] [ 51%] [32m[1mLinking CXX executable low_level_ctrl_hg[0m
+[24.726s] [ 53%] [32mBuilding CXX object CMakeFiles/g1_loco_client_example.dir/src/common/motor_crc.cpp.o[0m
+[24.739s] [ 55%] [32m[1mLinking CXX executable g1_low_level_example[0m
+[24.813s] [ 56%] [32mBuilding CXX object CMakeFiles/g1_ankle_swing_example.dir/src/common/motor_crc_hg.cpp.o[0m
+[25.149s] [ 58%] [32mBuilding CXX object CMakeFiles/go2_sport_client.dir/src/common/ros2_sport_client.cpp.o[0m
+[25.181s] [ 58%] Built target low_level_ctrl_hg
+[25.324s] [ 58%] Built target g1_low_level_example
+[25.686s] [ 60%] [32mBuilding CXX object CMakeFiles/go2_robot_state_client.dir/src/common/motor_crc.cpp.o[0m
+[26.806s] [ 62%] [32m[1mLinking CXX executable go2_stand_example[0m
+[27.003s] [ 63%] [32m[1mLinking CXX executable g1_arm_sdk_dds_example[0m
+[27.322s] [ 63%] Built target go2_stand_example
+[27.502s] [ 63%] Built target g1_arm_sdk_dds_example
+[27.591s] [ 65%] [32m[1mLinking CXX executable g1_dex3_example[0m
+[28.040s] [ 65%] Built target g1_dex3_example
+[28.140s] [ 67%] [32m[1mLinking CXX executable g1_arm_action_example[0m
+[28.496s] [ 68%] [32m[1mLinking CXX executable g1_loco_client_example[0m
+[28.499s] [ 70%] [32m[1mLinking CXX executable g1_ankle_swing_example[0m
+[28.634s] [ 70%] Built target g1_arm_action_example
+[28.663s] [ 75%] [32mBuilding CXX object CMakeFiles/b2_sport_client.dir/src/b2/b2_sport_client.cpp.o[0m
+[28.663s] [ 75%] [32mBuilding CXX object CMakeFiles/b2_stand_example.dir/src/common/motor_crc.cpp.o[0m
+[28.664s] [ 75%] [32mBuilding CXX object CMakeFiles/b2_stand_example.dir/src/b2/b2_stand_example.cpp.o[0m
+[28.664s] [ 77%] [32mBuilding CXX object CMakeFiles/g1_dual_arm_example.dir/src/g1/lowlevel/g1_dual_arm_example.cpp.o[0m
+[28.664s] [ 79%] [32mBuilding CXX object CMakeFiles/g1_dual_arm_example.dir/src/common/motor_crc_hg.cpp.o[0m
+[28.665s] [ 81%] [32mBuilding CXX object CMakeFiles/b2_sport_client.dir/src/common/ros2_b2_sport_client.cpp.o[0m
+[29.169s] In file included from [01m[K/home/issatay/Desktop/unitree_ws/src/unitree_ros2/example/src/include/common/b2_base_client.hpp:16[m[K,
+[29.169s]                  from [01m[K/home/issatay/Desktop/unitree_ws/src/unitree_ros2/example/src/include/b2/b2_motion_switch_client.hpp:11[m[K,
+[29.170s]                  from [01m[K/home/issatay/Desktop/unitree_ws/src/unitree_ros2/example/src/src/b2/b2_stand_example.cpp:11[m[K:
+[29.170s] [01m[K/home/issatay/Desktop/unitree_ws/src/unitree_ros2/example/src/include/common/ut_errror.hpp:13:59:[m[K [01;35m[Kwarning: [m[Kbackslash-newline at end of file
+[29.170s]    13 | #define UT_PRINT_ERR(code, error)                         \
+[29.170s]       |                                                            
+[29.188s] In file included from [01m[K/home/issatay/Desktop/unitree_ws/src/unitree_ros2/example/src/include/common/base_client.hpp:11[m[K,
+[29.189s]                  from [01m[K/home/issatay/Desktop/unitree_ws/src/unitree_ros2/example/src/include/g1/g1_motion_switch_client.hpp:11[m[K,
+[29.189s]                  from [01m[K/home/issatay/Desktop/unitree_ws/src/unitree_ros2/example/src/src/g1/lowlevel/g1_dual_arm_example.cpp:18[m[K:
+[29.189s] [01m[K/home/issatay/Desktop/unitree_ws/src/unitree_ros2/example/src/include/common/ut_errror.hpp:13:59:[m[K [01;35m[Kwarning: [m[Kbackslash-newline at end of file
+[29.189s]    13 | #define UT_PRINT_ERR(code, error)                         \
+[29.189s]       |                                                            
+[29.219s] [ 81%] Built target g1_ankle_swing_example
+[29.248s] [ 82%] [32mBuilding CXX object CMakeFiles/b2w_stand_example.dir/src/b2w/b2w_stand_example.cpp.o[0m
+[29.250s] [ 84%] [32mBuilding CXX object CMakeFiles/b2w_stand_example.dir/src/common/motor_crc.cpp.o[0m
+[29.253s] [ 86%] [32mBuilding CXX object CMakeFiles/b2w_sport_client.dir/src/b2w/b2w_sport_client.cpp.o[0m
+[29.254s] [ 87%] [32mBuilding CXX object CMakeFiles/b2w_sport_client.dir/src/common/ros2_b2_sport_client.cpp.o[0m
+[29.370s] [ 87%] Built target g1_loco_client_example
+[29.454s] [ 89%] [32m[1mLinking CXX executable go2_robot_state_client[0m
+[29.788s] In file included from [01m[K/home/issatay/Desktop/unitree_ws/src/unitree_ros2/example/src/include/common/b2_base_client.hpp:16[m[K,
+[29.788s]                  from [01m[K/home/issatay/Desktop/unitree_ws/src/unitree_ros2/example/src/include/b2/b2_motion_switch_client.hpp:11[m[K,
+[29.788s]                  from [01m[K/home/issatay/Desktop/unitree_ws/src/unitree_ros2/example/src/src/b2w/b2w_stand_example.cpp:11[m[K:
+[29.789s] [01m[K/home/issatay/Desktop/unitree_ws/src/unitree_ros2/example/src/include/common/ut_errror.hpp:13:59:[m[K [01;35m[Kwarning: [m[Kbackslash-newline at end of file
+[29.789s]    13 | #define UT_PRINT_ERR(code, error)                         \
+[29.789s]       |                                                            
+[30.392s] [ 89%] Built target go2_robot_state_client
+[36.012s] [ 91%] [32m[1mLinking CXX executable b2w_sport_client[0m
+[36.258s] [ 91%] Built target b2w_sport_client
+[36.743s] [ 93%] [32m[1mLinking CXX executable b2_sport_client[0m
+[36.987s] [ 93%] Built target b2_sport_client
+[37.167s] [ 94%] [32m[1mLinking CXX executable go2_sport_client[0m
+[37.789s] [ 94%] Built target go2_sport_client
+[43.126s] [ 96%] [32m[1mLinking CXX executable g1_dual_arm_example[0m
+[43.403s] [ 98%] [32m[1mLinking CXX executable b2_stand_example[0m
+[43.776s] [100%] [32m[1mLinking CXX executable b2w_stand_example[0m
+[43.795s] [100%] Built target g1_dual_arm_example
+[43.985s] [100%] Built target b2_stand_example
+[44.243s] [100%] Built target b2w_stand_example
+[44.257s] Invoked command in '/home/issatay/Desktop/unitree_ws/build/unitree_ros2_example' returned '0': CMAKE_PREFIX_PATH=/home/issatay/Desktop/unitree_ws/install/unitree_hg:/home/issatay/Desktop/unitree_ws/install/unitree_go:/home/issatay/Desktop/unitree_ws/install/unitree_api:/home/issatay/Desktop/unitree_ws/install/unitree_ros2_example:/home/issatay/Desktop/unitree_ws/install/g1_description:/home/issatay/Desktop/unitree_ws/install/unitree_sdk2:/home/issatay/Desktop/unitree_ws/install/g1_gz_spawn:/home/issatay/Desktop/unitree_ws/install/g1_bringup:/opt/ros/humble /usr/bin/cmake --build /home/issatay/Desktop/unitree_ws/build/unitree_ros2_example -- -j16 -l16
+[44.257s] Invoking command in '/home/issatay/Desktop/unitree_ws/build/unitree_ros2_example': CMAKE_PREFIX_PATH=/home/issatay/Desktop/unitree_ws/install/unitree_hg:/home/issatay/Desktop/unitree_ws/install/unitree_go:/home/issatay/Desktop/unitree_ws/install/unitree_api:/home/issatay/Desktop/unitree_ws/install/unitree_ros2_example:/home/issatay/Desktop/unitree_ws/install/g1_description:/home/issatay/Desktop/unitree_ws/install/unitree_sdk2:/home/issatay/Desktop/unitree_ws/install/g1_gz_spawn:/home/issatay/Desktop/unitree_ws/install/g1_bringup:/opt/ros/humble /usr/bin/cmake --install /home/issatay/Desktop/unitree_ws/build/unitree_ros2_example
+[44.265s] -- Install configuration: ""
+[44.265s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_ros2_example/bin/low_level_ctrl
+[44.266s] -- Set runtime path of "/home/issatay/Desktop/unitree_ws/install/unitree_ros2_example/bin/low_level_ctrl" to ""
+[44.266s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_ros2_example/bin/low_level_ctrl_hg
+[44.269s] -- Set runtime path of "/home/issatay/Desktop/unitree_ws/install/unitree_ros2_example/bin/low_level_ctrl_hg" to ""
+[44.270s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_ros2_example/bin/g1_low_level_example
+[44.273s] -- Set runtime path of "/home/issatay/Desktop/unitree_ws/install/unitree_ros2_example/bin/g1_low_level_example" to ""
+[44.273s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_ros2_example/bin/read_low_state
+[44.276s] -- Set runtime path of "/home/issatay/Desktop/unitree_ws/install/unitree_ros2_example/bin/read_low_state" to ""
+[44.276s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_ros2_example/bin/read_low_state_hg
+[44.279s] -- Set runtime path of "/home/issatay/Desktop/unitree_ws/install/unitree_ros2_example/bin/read_low_state_hg" to ""
+[44.279s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_ros2_example/bin/read_motion_state
+[44.282s] -- Set runtime path of "/home/issatay/Desktop/unitree_ws/install/unitree_ros2_example/bin/read_motion_state" to ""
+[44.282s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_ros2_example/bin/read_wireless_controller
+[44.285s] -- Set runtime path of "/home/issatay/Desktop/unitree_ws/install/unitree_ros2_example/bin/read_wireless_controller" to ""
+[44.285s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_ros2_example/bin/go2_sport_client
+[44.291s] -- Set runtime path of "/home/issatay/Desktop/unitree_ws/install/unitree_ros2_example/bin/go2_sport_client" to ""
+[44.291s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_ros2_example/bin/go2_stand_example
+[44.294s] -- Set runtime path of "/home/issatay/Desktop/unitree_ws/install/unitree_ros2_example/bin/go2_stand_example" to ""
+[44.294s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_ros2_example/bin/go2_robot_state_client
+[44.298s] -- Set runtime path of "/home/issatay/Desktop/unitree_ws/install/unitree_ros2_example/bin/go2_robot_state_client" to ""
+[44.298s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_ros2_example/bin/g1_arm_sdk_dds_example
+[44.301s] -- Set runtime path of "/home/issatay/Desktop/unitree_ws/install/unitree_ros2_example/bin/g1_arm_sdk_dds_example" to ""
+[44.301s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_ros2_example/bin/g1_arm_action_example
+[44.305s] -- Set runtime path of "/home/issatay/Desktop/unitree_ws/install/unitree_ros2_example/bin/g1_arm_action_example" to ""
+[44.305s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_ros2_example/bin/g1_dex3_example
+[44.308s] -- Set runtime path of "/home/issatay/Desktop/unitree_ws/install/unitree_ros2_example/bin/g1_dex3_example" to ""
+[44.309s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_ros2_example/bin/g1_loco_client_example
+[44.313s] -- Set runtime path of "/home/issatay/Desktop/unitree_ws/install/unitree_ros2_example/bin/g1_loco_client_example" to ""
+[44.313s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_ros2_example/bin/g1_ankle_swing_example
+[44.317s] -- Set runtime path of "/home/issatay/Desktop/unitree_ws/install/unitree_ros2_example/bin/g1_ankle_swing_example" to ""
+[44.318s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_ros2_example/bin/g1_dual_arm_example
+[44.323s] -- Set runtime path of "/home/issatay/Desktop/unitree_ws/install/unitree_ros2_example/bin/g1_dual_arm_example" to ""
+[44.323s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_ros2_example/bin/g1_audio_client_example
+[44.327s] -- Set runtime path of "/home/issatay/Desktop/unitree_ws/install/unitree_ros2_example/bin/g1_audio_client_example" to ""
+[44.327s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_ros2_example/share/ament_index/resource_index/package_run_dependencies/unitree_ros2_example
+[44.327s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_ros2_example/share/ament_index/resource_index/parent_prefix_path/unitree_ros2_example
+[44.328s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_ros2_example/share/unitree_ros2_example/environment/ament_prefix_path.sh
+[44.328s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_ros2_example/share/unitree_ros2_example/environment/ament_prefix_path.dsv
+[44.328s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_ros2_example/share/unitree_ros2_example/environment/path.sh
+[44.328s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_ros2_example/share/unitree_ros2_example/environment/path.dsv
+[44.328s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_ros2_example/share/unitree_ros2_example/local_setup.bash
+[44.328s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_ros2_example/share/unitree_ros2_example/local_setup.sh
+[44.328s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_ros2_example/share/unitree_ros2_example/local_setup.zsh
+[44.328s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_ros2_example/share/unitree_ros2_example/local_setup.dsv
+[44.328s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_ros2_example/share/unitree_ros2_example/package.dsv
+[44.329s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_ros2_example/share/ament_index/resource_index/packages/unitree_ros2_example
+[44.329s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_ros2_example/share/unitree_ros2_example/cmake/unitree_ros2_exampleConfig.cmake
+[44.329s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_ros2_example/share/unitree_ros2_example/cmake/unitree_ros2_exampleConfig-version.cmake
+[44.329s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_ros2_example/share/unitree_ros2_example/package.xml
+[44.332s] Invoked command in '/home/issatay/Desktop/unitree_ws/build/unitree_ros2_example' returned '0': CMAKE_PREFIX_PATH=/home/issatay/Desktop/unitree_ws/install/unitree_hg:/home/issatay/Desktop/unitree_ws/install/unitree_go:/home/issatay/Desktop/unitree_ws/install/unitree_api:/home/issatay/Desktop/unitree_ws/install/unitree_ros2_example:/home/issatay/Desktop/unitree_ws/install/g1_description:/home/issatay/Desktop/unitree_ws/install/unitree_sdk2:/home/issatay/Desktop/unitree_ws/install/g1_gz_spawn:/home/issatay/Desktop/unitree_ws/install/g1_bringup:/opt/ros/humble /usr/bin/cmake --install /home/issatay/Desktop/unitree_ws/build/unitree_ros2_example

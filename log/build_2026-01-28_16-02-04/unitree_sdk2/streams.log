@@ -1,0 +1,1008 @@
+[0.571s] Invoking command in '/home/issatay/Desktop/unitree_ws/build/unitree_sdk2': /usr/bin/cmake /home/issatay/Desktop/unitree_ws/src/unitree_sdk2 -DCMAKE_INSTALL_PREFIX=/home/issatay/Desktop/unitree_ws/install/unitree_sdk2
+[0.624s] -- The C compiler identification is GNU 11.4.0
+[0.700s] -- The CXX compiler identification is GNU 11.4.0
+[0.711s] -- Detecting C compiler ABI info
+[0.817s] -- Detecting C compiler ABI info - done
+[0.825s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.825s] -- Detecting C compile features
+[0.825s] -- Detecting C compile features - done
+[0.829s] -- Detecting CXX compiler ABI info
+[0.925s] -- Detecting CXX compiler ABI info - done
+[0.935s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.935s] -- Detecting CXX compile features
+[0.936s] -- Detecting CXX compile features - done
+[0.937s] -- Setting build type to 'Release' as none was specified.
+[0.938s] -- Current system architecture: x86_64
+[0.940s] -- Looking for pthread.h
+[1.038s] -- Looking for pthread.h - found
+[1.038s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.141s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.143s] -- Found Threads: TRUE  
+[1.144s] -- Importing: /home/issatay/Desktop/unitree_ws/src/unitree_sdk2/thirdparty/lib/x86_64/libddsc.so
+[1.144s] -- Importing: /home/issatay/Desktop/unitree_ws/src/unitree_sdk2/thirdparty/lib/x86_64/libddscxx.so
+[1.144s] -- Unitree SDK library found at: /home/issatay/Desktop/unitree_ws/src/unitree_sdk2/lib/x86_64/libunitree_sdk2.a
+[1.144s] -- Importing: /home/issatay/Desktop/unitree_ws/src/unitree_sdk2/lib/x86_64/libunitree_sdk2.a
+[1.159s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: program_options 
+[1.162s] -- Found yaml-cpp version 0.7.0
+[1.165s] -- Configuring done
+[1.234s] -- Generating done
+[1.250s] -- Build files have been written to: /home/issatay/Desktop/unitree_ws/build/unitree_sdk2
+[1.258s] Invoked command in '/home/issatay/Desktop/unitree_ws/build/unitree_sdk2' returned '0': /usr/bin/cmake /home/issatay/Desktop/unitree_ws/src/unitree_sdk2 -DCMAKE_INSTALL_PREFIX=/home/issatay/Desktop/unitree_ws/install/unitree_sdk2
+[1.260s] Invoking command in '/home/issatay/Desktop/unitree_ws/build/unitree_sdk2': /usr/bin/cmake --build /home/issatay/Desktop/unitree_ws/build/unitree_sdk2 -- -j16 -l16
+[1.334s] [  1%] [32mBuilding CXX object example/wireless_controller/CMakeFiles/advanced_gamepad.dir/main.cpp.o[0m
+[1.338s] [  4%] [32mBuilding CXX object example/go2/CMakeFiles/go2_low_level.dir/go2_low_level.cpp.o[0m
+[1.339s] [  4%] [32mBuilding CXX object example/helloworld/CMakeFiles/test_publisher.dir/publisher.cpp.o[0m
+[1.340s] [  5%] [32mBuilding CXX object example/go2/CMakeFiles/go2_sport_client.dir/go2_sport_client.cpp.o[0m
+[1.341s] [  6%] [32mBuilding CXX object example/jsonize/CMakeFiles/test_jsonize.dir/test_jsonize.cpp.o[0m
+[1.344s] [  8%] [32mBuilding CXX object example/helloworld/CMakeFiles/test_publisher.dir/HelloWorldData.cpp.o[0m
+[1.354s] [  9%] [32mBuilding CXX object example/go2/CMakeFiles/go2_robot_state_client.dir/go2_robot_state_client.cpp.o[0m
+[1.355s] [ 10%] [32mBuilding CXX object example/go2/CMakeFiles/go2_stand_example.dir/go2_stand_example.cpp.o[0m
+[1.357s] [ 12%] [32mBuilding CXX object example/helloworld/CMakeFiles/test_subscriber.dir/subscriber.cpp.o[0m
+[1.359s] [ 13%] [32mBuilding CXX object example/go2/CMakeFiles/go2_video_client.dir/go2_video_client.cpp.o[0m
+[1.363s] [ 14%] [32mBuilding CXX object example/state_machine/CMakeFiles/state_machine_example.dir/main.cpp.o[0m
+[1.364s] [ 16%] [32mBuilding CXX object example/b2/CMakeFiles/b2_sport_client.dir/b2_sport_client.cpp.o[0m
+[1.375s] [ 17%] [32mBuilding CXX object example/go2/CMakeFiles/go2_vui_client.dir/go2_vui_client.cpp.o[0m
+[1.383s] [ 18%] [32mBuilding CXX object example/h1/CMakeFiles/h1_loco_client.dir/high_level/h1_loco_client_example.cpp.o[0m
+[1.383s] [ 20%] [32mBuilding CXX object example/b2/CMakeFiles/b2_stand_example.dir/b2_stand_example.cpp.o[0m
+[1.404s] [ 21%] [32mBuilding CXX object example/h1/CMakeFiles/h1_low_level_example.dir/low_level/humanoid.cpp.o[0m
+[3.337s] [ 22%] [32mBuilding CXX object example/helloworld/CMakeFiles/test_subscriber.dir/HelloWorldData.cpp.o[0m
+[4.398s] [ 24%] [32m[1mLinking CXX executable ../../bin/go2_robot_state_client[0m
+[4.920s] [ 25%] [32m[1mLinking CXX executable ../../bin/b2_sport_client[0m
+[4.966s] [ 27%] [32m[1mLinking CXX executable ../../bin/go2_vui_client[0m
+[5.658s] [ 28%] [32m[1mLinking CXX executable ../../bin/go2_video_client[0m
+[5.802s] [ 29%] [32mBuilding CXX object example/h1/CMakeFiles/h1_27dof_example.dir/low_level/h1_27dof_example.cpp.o[0m
+[5.815s] [ 29%] Built target go2_robot_state_client
+[5.917s] [ 31%] [32mBuilding CXX object example/h1/CMakeFiles/h1_2_ankle_track.dir/low_level/h1_2_ankle_track.cpp.o[0m
+[6.456s] [ 31%] Built target b2_sport_client
+[6.537s] [ 32%] [32mBuilding CXX object example/h1/CMakeFiles/h1_arm_sdk_dds_example.dir/high_level/h1_arm_sdk_dds_example.cpp.o[0m
+[6.884s] [ 33%] [32m[1mLinking CXX executable ../../bin/test_jsonize[0m
+[7.337s] [ 33%] Built target test_jsonize
+[7.450s] [ 35%] [32mBuilding CXX object example/h1/CMakeFiles/h1_2_arm_sdk_dds_example.dir/high_level/h1_2_arm_sdk_dds_example.cpp.o[0m
+[7.677s] [ 35%] Built target go2_video_client
+[7.714s] [ 35%] Built target go2_vui_client
+[7.780s] [ 36%] [32mBuilding CXX object example/g1/CMakeFiles/g1_loco_client.dir/high_level/g1_loco_client_example.cpp.o[0m
+[7.806s] [ 37%] [32mBuilding CXX object example/g1/CMakeFiles/g1_arm5_sdk_dds_example.dir/high_level/g1_arm5_sdk_dds_example.cpp.o[0m
+[10.606s] [ 39%] [32m[1mLinking CXX executable ../../bin/h1_loco_client[0m
+[11.747s] [ 39%] Built target h1_loco_client
+[11.817s] [ 40%] [32mBuilding CXX object example/g1/CMakeFiles/g1_arm7_sdk_dds_example.dir/high_level/g1_arm7_sdk_dds_example.cpp.o[0m
+[14.708s] [ 41%] [32m[1mLinking CXX executable ../../bin/advanced_gamepad[0m
+[15.559s] [ 43%] [32m[1mLinking CXX executable ../../bin/test_subscriber[0m
+[16.352s] [ 44%] [32m[1mLinking CXX executable ../../bin/g1_loco_client[0m
+[16.531s] [ 44%] Built target test_subscriber
+[16.614s] [ 45%] [32mBuilding CXX object example/g1/CMakeFiles/g1_ankle_swing_example.dir/low_level/g1_ankle_swing_example.cpp.o[0m
+[16.634s] [ 45%] Built target advanced_gamepad
+[16.712s] [ 47%] [32mBuilding CXX object example/g1/CMakeFiles/g1_audio_client_example.dir/audio/g1_audio_client_example.cpp.o[0m
+[16.948s] [ 48%] [32m[1mLinking CXX executable ../../bin/test_publisher[0m
+[17.471s] [ 48%] Built target g1_loco_client
+[17.613s] [ 50%] [32mBuilding CXX object example/g1/CMakeFiles/g1_dex3_example.dir/dex3/g1_dex3_example.cpp.o[0m
+[18.272s] [ 50%] Built target test_publisher
+[18.357s] [ 51%] [32mBuilding CXX object example/g1/CMakeFiles/g1_termination.dir/low_level/terminations.cpp.o[0m
+[23.365s] [ 52%] [32m[1mLinking CXX executable ../../bin/go2_sport_client[0m
+[25.291s] [ 52%] Built target go2_sport_client
+[25.398s] [ 54%] [32mBuilding CXX object example/g1/CMakeFiles/g1_arm_action_example.dir/high_level/g1_arm_action_example.cpp.o[0m
+[31.755s] [ 55%] [32m[1mLinking CXX executable ../../bin/go2_stand_example[0m
+[31.782s] [ 56%] [32m[1mLinking CXX executable ../../bin/b2_stand_example[0m
+[31.954s] [ 58%] [32m[1mLinking CXX executable ../../bin/h1_2_arm_sdk_dds_example[0m
+[31.976s] [ 59%] [32m[1mLinking CXX executable ../../bin/h1_27dof_example[0m
+[32.664s] [ 59%] Built target h1_2_arm_sdk_dds_example
+[32.713s] [ 60%] [32mBuilding CXX object example/g1/CMakeFiles/g1_dual_arm_example.dir/low_level/g1_dual_arm_example.cpp.o[0m
+[32.725s] [ 62%] [32m[1mLinking CXX executable ../../bin/h1_2_ankle_track[0m
+[32.741s] [ 63%] [32m[1mLinking CXX executable ../../bin/g1_audio_client_example[0m
+[32.754s] [ 64%] [32m[1mLinking CXX executable ../../bin/go2_low_level[0m
+[32.778s] [ 64%] Built target b2_stand_example
+[32.789s] [ 66%] [32m[1mLinking CXX executable ../../bin/g1_arm5_sdk_dds_example[0m
+[32.865s] [ 67%] [32mBuilding CXX object example/g1/CMakeFiles/g1_agv_client_example.dir/agv/g1_agv_client_example.cpp.o[0m
+[32.929s] [ 67%] Built target h1_27dof_example
+[32.963s] [ 67%] Built target go2_stand_example
+[32.998s] [ 68%] [32mBuilding CXX object example/go2w/CMakeFiles/go2w_sport_client.dir/go2w_sport_client.cpp.o[0m
+[33.042s] [ 70%] [32mBuilding CXX object example/go2w/CMakeFiles/go2w_stand_example.dir/go2w_stand_example.cpp.o[0m
+[33.358s] [ 71%] [32m[1mLinking CXX executable ../../bin/state_machine_example[0m
+[33.437s] [ 71%] Built target h1_2_ankle_track
+[33.511s] [ 72%] [32mBuilding CXX object example/b2w/CMakeFiles/b2w_sport_client.dir/b2w_sport_client.cpp.o[0m
+[33.530s] [ 72%] Built target g1_arm5_sdk_dds_example
+[33.533s] [ 72%] Built target go2_low_level
+[33.605s] [ 74%] [32mBuilding CXX object example/a2/CMakeFiles/a2_sport_client.dir/a2_sport_client.cpp.o[0m
+[33.614s] [ 75%] [32mBuilding CXX object example/b2w/CMakeFiles/b2w_stand_example.dir/b2w_stand_example.cpp.o[0m
+[33.697s] [ 75%] Built target g1_audio_client_example
+[33.764s] [ 77%] [32mBuilding CXX object example/a2/CMakeFiles/a2_sport_state.dir/a2_sport_state.cpp.o[0m
+[33.971s] [ 78%] [32m[1mLinking CXX executable ../../bin/h1_low_level_example[0m
+[34.150s] [ 78%] Built target state_machine_example
+[34.216s] [ 79%] [32mBuilding CXX object example/a2/CMakeFiles/a2_audio_client_example.dir/audio/a2_audio_client_example.cpp.o[0m
+[34.604s] [ 81%] [32m[1mLinking CXX executable ../../bin/g1_arm_action_example[0m
+[34.620s] [ 82%] [32m[1mLinking CXX executable ../../bin/g1_arm7_sdk_dds_example[0m
+[34.645s] [ 83%] [32m[1mLinking CXX executable ../../bin/h1_arm_sdk_dds_example[0m
+[35.128s] [ 83%] Built target h1_low_level_example
+[35.455s] [ 83%] Built target h1_arm_sdk_dds_example
+[35.535s] [ 83%] Built target g1_arm_action_example
+[35.632s] [ 83%] Built target g1_arm7_sdk_dds_example
+[36.387s] [ 85%] [32m[1mLinking CXX executable ../../bin/g1_agv_client_example[0m
+[36.552s] [ 86%] [32m[1mLinking CXX executable ../../bin/b2w_sport_client[0m
+[37.173s] [ 86%] Built target g1_agv_client_example
+[37.311s] [ 86%] Built target b2w_sport_client
+[38.089s] [ 87%] [32m[1mLinking CXX executable ../../bin/a2_sport_client[0m
+[38.097s] [ 89%] [32m[1mLinking CXX executable ../../bin/g1_termination[0m
+[38.682s] [ 89%] Built target g1_termination
+[38.778s] [ 89%] Built target a2_sport_client
+[38.790s] [ 90%] [32m[1mLinking CXX executable ../../bin/g1_dex3_example[0m
+[39.222s] [ 90%] Built target g1_dex3_example
+[40.694s] [ 91%] [32m[1mLinking CXX executable ../../bin/g1_ankle_swing_example[0m
+[41.273s] [ 91%] Built target g1_ankle_swing_example
+[41.455s] [ 93%] [32m[1mLinking CXX executable ../../bin/go2w_sport_client[0m
+[41.510s] [ 94%] [32m[1mLinking CXX executable ../../bin/a2_audio_client_example[0m
+[42.141s] [ 94%] Built target go2w_sport_client
+[42.243s] [ 95%] [32m[1mLinking CXX executable ../../bin/a2_sport_state[0m
+[42.282s] [ 95%] Built target a2_audio_client_example
+[42.809s] [ 95%] Built target a2_sport_state
+[46.777s] [ 97%] [32m[1mLinking CXX executable ../../bin/go2w_stand_example[0m
+[47.659s] [ 97%] Built target go2w_stand_example
+[48.437s] [ 98%] [32m[1mLinking CXX executable ../../bin/g1_dual_arm_example[0m
+[48.633s] [100%] [32m[1mLinking CXX executable ../../bin/b2w_stand_example[0m
+[49.245s] [100%] Built target g1_dual_arm_example
+[49.713s] [100%] Built target b2w_stand_example
+[49.765s] Invoked command in '/home/issatay/Desktop/unitree_ws/build/unitree_sdk2' returned '0': /usr/bin/cmake --build /home/issatay/Desktop/unitree_ws/build/unitree_sdk2 -- -j16 -l16
+[49.771s] Invoking command in '/home/issatay/Desktop/unitree_ws/build/unitree_sdk2': /usr/bin/cmake --install /home/issatay/Desktop/unitree_ws/build/unitree_sdk2
+[49.793s] -- Install configuration: "Release"
+[49.796s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include
+[49.800s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree
+[49.800s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/dds_wrapper
+[49.800s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/dds_wrapper/robots
+[49.800s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/dds_wrapper/robots/g1
+[49.801s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/dds_wrapper/robots/g1/defines.h
+[49.801s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/dds_wrapper/robots/g1/g1.h
+[49.801s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/dds_wrapper/robots/g1/g1_pub.h
+[49.801s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/dds_wrapper/robots/g1/g1_sub.h
+[49.801s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/dds_wrapper/robots/go2
+[49.802s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/dds_wrapper/robots/go2/defines.h
+[49.802s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/dds_wrapper/robots/go2/go2.h
+[49.802s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/dds_wrapper/robots/go2/go2_pub.h
+[49.802s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/dds_wrapper/robots/go2/go2_sub.h
+[49.803s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/dds_wrapper/common
+[49.803s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/dds_wrapper/common/Subscription.h
+[49.803s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/dds_wrapper/common/unitree_joystick.hpp
+[49.805s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/dds_wrapper/common/crc.h
+[49.805s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/dds_wrapper/common/Publisher.h
+[49.805s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common
+[49.805s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/string_tool.hpp
+[49.805s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/time
+[49.806s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/time/time_tool.hpp
+[49.806s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/time/sleep.hpp
+[49.806s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/assert.hpp
+[49.809s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/thread
+[49.809s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/thread/future.hpp
+[49.810s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/thread/thread_pool.hpp
+[49.810s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/thread/thread.hpp
+[49.810s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/thread/thread_task.hpp
+[49.810s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/thread/thread_decl.hpp
+[49.810s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/thread/recurrent_thread.hpp
+[49.811s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/exception.hpp
+[49.811s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/service
+[49.811s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/service/dds_service.hpp
+[49.815s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/service/base
+[49.815s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/service/base/service_config.hpp
+[49.815s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/service/base/service_application.hpp
+[49.815s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/service/base/service_decl.hpp
+[49.816s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/service/base/service_base.hpp
+[49.816s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/any.hpp
+[49.816s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/error.hpp
+[49.816s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/block_queue.hpp
+[49.816s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/dds
+[49.816s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/dds/dds_native.hpp
+[49.816s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/dds/dds_qos.hpp
+[49.816s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/dds/dds_parameter.hpp
+[49.817s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/dds/dds_topic_channel.hpp
+[49.817s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/dds/dds_exception.hpp
+[49.817s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/dds/dds_factory_model.hpp
+[49.821s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/dds/dds_traits.hpp
+[49.821s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/dds/dds_qos_parameter.hpp
+[49.821s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/dds/dds_callback.hpp
+[49.821s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/dds/dds_qos_realize.hpp
+[49.822s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/dds/dds_error.hpp
+[49.822s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/dds/dds_easy_model.hpp
+[49.822s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/dds/dds_qos_policy.hpp
+[49.822s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/dds/dds_qos_policy_parameter.hpp
+[49.822s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/dds/dds_entity.hpp
+[49.822s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/lock
+[49.822s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/lock/lock.hpp
+[49.823s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/filesystem
+[49.827s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/filesystem/directory.hpp
+[49.827s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/filesystem/filesystem.hpp
+[49.827s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/filesystem/file.hpp
+[49.827s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/log
+[49.827s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/log/log_policy.hpp
+[49.828s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/log/log_initor.hpp
+[49.828s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/log/log_store.hpp
+[49.828s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/log/log.hpp
+[49.828s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/log/log_decl.hpp
+[49.828s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/log/log_buffer.hpp
+[49.828s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/log/log_logger.hpp
+[49.829s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/log/log_keeper.hpp
+[49.829s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/log/log_writer.hpp
+[49.829s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/json
+[49.829s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/json/jsonize.hpp
+[49.829s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/json/json_config.hpp
+[49.829s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/json/json.hpp
+[49.829s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/decl.hpp
+[49.829s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/common/os.hpp
+[49.830s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot
+[49.830s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/future
+[49.830s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/future/request_future.hpp
+[49.830s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/server
+[49.834s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/server/server.hpp
+[49.834s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/server/server_base.hpp
+[49.834s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/server/lease_server.hpp
+[49.834s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/server/server_stub.hpp
+[49.834s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/internal
+[49.835s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_api.hpp
+[49.835s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_request_response.hpp
+[49.835s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_error.hpp
+[49.835s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/internal/internal.hpp
+[49.835s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl
+[49.835s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl/ResponseHeader_.hpp
+[49.835s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl/RequestHeader_.hpp
+[49.836s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl/ResponseStatus_.hpp
+[49.836s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl/RequestIdentity_.hpp
+[49.836s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl/Request_.hpp
+[49.836s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl/RequestPolicy_.hpp
+[49.836s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl/RequestLease_.hpp
+[49.837s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl/Response_.hpp
+[49.837s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/channel
+[49.838s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/channel/channel_subscriber.hpp
+[49.841s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/channel/channel_publisher.hpp
+[49.841s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/channel/channel_factory.hpp
+[49.842s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/channel/channel_namer.hpp
+[49.842s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/channel/channel_labor.hpp
+[49.843s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/a2
+[49.843s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/a2/sport
+[49.843s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/a2/sport/sport_client.hpp
+[49.843s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/a2/sport/sport_error.hpp
+[49.843s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/a2/sport/sport_api.hpp
+[49.843s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/a2/audio
+[49.843s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/a2/audio/audio_error.hpp
+[49.844s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/a2/audio/audio_api.hpp
+[49.844s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/a2/audio/audio_client.hpp
+[49.844s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/serialize
+[49.844s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/serialize/serialize.hpp
+[49.844s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/g1
+[49.848s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/g1/arm
+[49.848s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/g1/arm/g1_arm_action_client.hpp
+[49.848s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/g1/arm/g1_arm_action_error.hpp
+[49.848s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/g1/arm/g1_arm_action_api.hpp
+[49.848s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/g1/common
+[49.849s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/g1/common/terminations.hpp
+[49.849s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/g1/loco
+[49.849s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/g1/loco/g1_loco_client.hpp
+[49.849s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/g1/loco/g1_loco_error.hpp
+[49.849s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/g1/loco/g1_loco_api.hpp
+[49.849s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/g1/agv
+[49.850s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/g1/agv/g1_agv_error.hpp
+[49.850s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/g1/agv/g1_agv_client.hpp
+[49.850s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/g1/agv/g1_agv_api.hpp
+[49.850s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/g1/audio
+[49.850s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/g1/audio/g1_audio_error.hpp
+[49.851s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/g1/audio/g1_audio_client.hpp
+[49.851s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/g1/audio/g1_audio_api.hpp
+[49.851s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/go2
+[49.856s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/go2/robot_state
+[49.856s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/go2/robot_state/robot_state_error.hpp
+[49.857s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/go2/robot_state/robot_state_client.hpp
+[49.857s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/go2/robot_state/robot_state_api.hpp
+[49.857s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/go2/obstacles_avoid
+[49.857s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/go2/obstacles_avoid/obstacles_avoid_api.hpp
+[49.860s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/go2/obstacles_avoid/obstacles_avoid_client.hpp
+[49.860s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/go2/sport
+[49.860s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/go2/sport/sport_client.hpp
+[49.860s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/go2/sport/sport_error.hpp
+[49.860s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/go2/sport/sport_api.hpp
+[49.861s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/go2/vui
+[49.861s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/go2/vui/vui_api.hpp
+[49.861s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/go2/vui/vui_error.hpp
+[49.861s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/go2/vui/vui_client.hpp
+[49.861s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/go2/video
+[49.861s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/go2/video/video_client.hpp
+[49.861s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/go2/video/video_error.hpp
+[49.863s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/go2/video/video_api.hpp
+[49.866s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/go2/utrack
+[49.866s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/go2/utrack/utrack_api.hpp
+[49.866s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/go2/utrack/utrack_client.hpp
+[49.866s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/go2/public
+[49.867s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/go2/public/jsonize_type.hpp
+[49.867s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/go2/config
+[49.867s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/go2/config/config_client.hpp
+[49.867s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/go2/config/config_api.hpp
+[49.867s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/go2/config/config_error.hpp
+[49.867s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/client
+[49.867s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/client/lease_client.hpp
+[49.867s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/client/client.hpp
+[49.868s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/client/client_stub.hpp
+[49.868s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/client/client_base.hpp
+[49.868s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/b2
+[49.868s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/b2/front_video
+[49.868s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/b2/front_video/front_video_error.hpp
+[49.868s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/b2/front_video/front_video_client.hpp
+[49.872s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/b2/front_video/front_video_api.hpp
+[49.872s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/b2/robot_state
+[49.872s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/b2/robot_state/robot_state_error.hpp
+[49.872s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/b2/robot_state/robot_state_client.hpp
+[49.873s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/b2/robot_state/robot_state_api.hpp
+[49.873s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/b2/sport
+[49.873s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/b2/sport/sport_client.hpp
+[49.873s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/b2/sport/sport_error.hpp
+[49.873s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/b2/sport/sport_api.hpp
+[49.873s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/b2/motion_switcher
+[49.873s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/b2/motion_switcher/motion_switcher_api.hpp
+[49.873s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/b2/motion_switcher/motion_switcher_error.hpp
+[49.877s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/b2/motion_switcher/motion_switcher_client.hpp
+[49.877s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/b2/back_video
+[49.877s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/b2/back_video/back_video_error.hpp
+[49.879s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/b2/back_video/back_video_client.hpp
+[49.879s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/b2/back_video/back_video_api.hpp
+[49.879s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/b2/config
+[49.880s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/b2/config/config_client.hpp
+[49.880s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/b2/config/config_api.hpp
+[49.880s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/b2/config/config_error.hpp
+[49.880s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/h1
+[49.880s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/h1/loco
+[49.880s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/h1/loco/h1_loco_error.hpp
+[49.880s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/h1/loco/h1_loco_client.hpp
+[49.909s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/robot/h1/loco/h1_loco_api.hpp
+[49.909s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl
+[49.909s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/hg_doubleimu
+[49.909s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/hg_doubleimu/doubleIMUState_.hpp
+[49.909s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/hg
+[49.910s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/hg/IMUState_.hpp
+[49.910s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/hg/BmsCmd_.hpp
+[49.910s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/hg/LowState_.hpp
+[49.910s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/hg/HandCmd_.hpp
+[49.910s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/hg/SportModeState_.hpp
+[49.910s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/hg/LowCmd_.hpp
+[49.910s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/hg/BmsState_.hpp
+[49.910s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/hg/MainBoardState_.hpp
+[49.911s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/hg/PressSensorState_.hpp
+[49.911s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/hg/MotorCmd_.hpp
+[49.911s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/hg/HandState_.hpp
+[49.911s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/hg/AgvBmsState_.hpp
+[49.911s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/hg/MotorState_.hpp
+[49.912s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/go2
+[49.917s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/go2/AudioData_.hpp
+[49.917s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/go2/ConfigChangeStatus_.hpp
+[49.918s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/go2/IMUState_.hpp
+[49.918s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/go2/BmsCmd_.hpp
+[49.918s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/go2/LowState_.hpp
+[49.918s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/go2/UwbState_.hpp
+[49.918s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/go2/SportModeState_.hpp
+[49.918s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/go2/LowCmd_.hpp
+[49.918s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/go2/Go2FrontVideoData_.hpp
+[49.919s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/go2/InterfaceConfig_.hpp
+[49.919s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/go2/BmsState_.hpp
+[49.919s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/go2/Res_.hpp
+[49.919s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/go2/HeightMap_.hpp
+[49.922s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/go2/TimeSpec_.hpp
+[49.923s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/go2/Req_.hpp
+[49.923s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/go2/VoxelMapCompressed_.hpp
+[49.923s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/go2/MotorCmd_.hpp
+[49.923s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/go2/MotorStates_.hpp
+[49.923s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/go2/MotorCmds_.hpp
+[49.923s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/go2/MotorState_.hpp
+[49.923s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/go2/LidarState_.hpp
+[49.924s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/go2/SportModeCmd_.hpp
+[49.924s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/go2/UwbSwitch_.hpp
+[49.924s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/go2/PathPoint_.hpp
+[49.924s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/go2/Error_.hpp
+[49.924s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/go2/WirelessController_.hpp
+[49.924s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/ros2
+[49.924s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/ros2/Pose2D_.hpp
+[49.925s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/ros2/PoseWithCovariance_.hpp
+[49.925s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/ros2/Header_.hpp
+[49.925s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/ros2/PoseWithCovarianceStamped_.hpp
+[49.925s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/ros2/OccupancyGrid_.hpp
+[49.925s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/ros2/TwistWithCovariance_.hpp
+[49.925s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/ros2/Quaternion_.hpp
+[49.925s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/ros2/PointField_.hpp
+[49.925s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/ros2/Twist_.hpp
+[49.926s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/ros2/TwistWithCovarianceStamped_.hpp
+[49.926s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/ros2/Vector3_.hpp
+[49.926s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/ros2/PointStamped_.hpp
+[49.926s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/ros2/Pose_.hpp
+[49.926s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/ros2/MapMetaData_.hpp
+[49.926s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/ros2/Imu_.hpp
+[49.926s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/ros2/TwistStamped_.hpp
+[49.927s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/ros2/PoseStamped_.hpp
+[49.927s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/ros2/Point32_.hpp
+[49.927s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/ros2/Odometry_.hpp
+[49.927s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/ros2/QuaternionStamped_.hpp
+[49.927s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/ros2/PointCloud2_.hpp
+[49.927s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/ros2/Point_.hpp
+[49.927s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/ros2/Time_.hpp
+[49.927s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/unitree/idl/ros2/String_.hpp
+[49.927s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/lib/libunitree_sdk2.a
+[50.018s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/lib/cmake/unitree_sdk2/unitree_sdk2Targets.cmake
+[50.018s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/lib/cmake/unitree_sdk2/unitree_sdk2Config.cmake
+[50.018s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/lib/cmake/unitree_sdk2/unitree_sdk2ConfigVersion.cmake
+[50.019s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/lib/libddsc.so
+[50.042s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/lib/libddsc.so.0
+[50.042s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/lib/libddscxx.so
+[50.045s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/lib/libddscxx.so.0
+[50.051s] -- Up-to-date: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include
+[50.051s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddsc
+[50.052s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddsc/dds.h
+[50.052s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx
+[50.052s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org
+[50.056s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse
+[50.056s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds
+[50.056s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/pub
+[50.056s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/pub/PublisherDelegate.hpp
+[50.057s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/pub/AnyDataWriterDelegate.hpp
+[50.057s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/pub/CoherentSetDelegate.hpp
+[50.057s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/pub/SuspendedPublicationDelegate.hpp
+[50.057s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/pub/qos
+[50.057s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/pub/qos/DataWriterQosDelegate.hpp
+[50.057s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/pub/qos/PublisherQosDelegate.hpp
+[50.057s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic
+[50.058s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/TBuiltinTopic.hpp
+[50.058s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/BuiltinTopicDelegate.hpp
+[50.058s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/discovery.hpp
+[50.058s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/AnyTopicDelegate.hpp
+[50.058s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/TopicTraits.hpp
+[50.059s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/BuiltinTopic.hpp
+[50.059s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/TopicDescriptionDelegate.hpp
+[50.063s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/CDRBlob.hpp
+[50.063s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/hash.hpp
+[50.063s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/BuiltinTopicCopy.hpp
+[50.063s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp
+[50.064s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/qos
+[50.064s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/qos/TopicQosDelegate.hpp
+[50.064s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/BuiltinTopicKeyDelegate.hpp
+[50.064s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/find.hpp
+[50.064s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/AnyTopicListener.hpp
+[50.064s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/BuiltinTopicTraits.hpp
+[50.065s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/FilterDelegate.hpp
+[50.065s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/TopicListener.hpp
+[50.065s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core
+[50.065s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/EntityRegistry.hpp
+[50.065s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/DDScObjectDelegate.hpp
+[50.065s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/policy
+[50.066s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/policy/TPolicy.hpp
+[50.066s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/policy/Policy.hpp
+[50.066s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/policy/QosPolicyCountDelegate.hpp
+[50.066s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/policy/PolicyDelegate.hpp
+[50.066s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/policy/ProprietaryPolicyKind.hpp
+[50.070s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/ObjectSet.hpp
+[50.070s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/TimeHelper.hpp
+[50.070s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/MiscUtils.hpp
+[50.070s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/type_helpers.hpp
+[50.071s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/Missing.hpp
+[50.071s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cond
+[50.071s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cond/ShadowParticipant.hpp
+[50.071s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cond/WaitSetDelegate.hpp
+[50.071s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cond/StatusConditionDelegate.hpp
+[50.071s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cond/GuardConditionDelegate.hpp
+[50.071s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cond/FunctorHolder.hpp
+[50.072s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cond/ConditionDelegate.hpp
+[50.072s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/QosProviderDelegate.hpp
+[50.072s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cdr
+[50.076s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cdr/fragchain.hpp
+[50.077s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cdr/entity_properties.hpp
+[50.077s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cdr/extended_cdr_v2_ser.hpp
+[50.080s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cdr/cdr_enums.hpp
+[50.080s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cdr/basic_cdr_ser.hpp
+[50.080s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cdr/extended_cdr_v1_ser.hpp
+[50.080s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cdr/cdr_stream.hpp
+[50.081s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/InstanceHandleDelegate.hpp
+[50.081s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/WeakReferenceSet.hpp
+[50.081s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/ScopedLock.hpp
+[50.081s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/status
+[50.081s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/status/StatusDelegate.hpp
+[50.081s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/ReportUtils.hpp
+[50.081s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/ObjectDelegate.hpp
+[50.082s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/ListenerDispatcher.hpp
+[50.082s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/Mutex.hpp
+[50.083s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/EntitySet.hpp
+[50.086s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/config.hpp
+[50.086s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/EntityDelegate.hpp
+[50.086s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub
+[50.086s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/GenerationCountImpl.hpp
+[50.087s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/QueryDelegate.hpp
+[50.087s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/CoherentAccessDelegate.hpp
+[50.087s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/cond
+[50.087s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/cond/ReadConditionDelegate.hpp
+[50.087s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/cond/QueryConditionDelegate.hpp
+[50.087s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/qos
+[50.088s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/qos/SubscriberQosDelegate.hpp
+[50.088s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/qos/DataReaderQosDelegate.hpp
+[50.088s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/BuiltinSubscriberDelegate.hpp
+[50.088s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/AnyDataReaderDelegate.hpp
+[50.088s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/SampleInfoImpl.hpp
+[50.088s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/RankImpl.hpp
+[50.088s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/SubscriberDelegate.hpp
+[50.092s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/domain
+[50.092s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/domain/DomainParticipantListener.hpp
+[50.092s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/domain/DomainWrap.hpp
+[50.096s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/domain/DomainParticipantDelegate.hpp
+[50.096s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/domain/qos
+[50.096s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/domain/qos/DomainParticipantQosDelegate.hpp
+[50.096s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/domain/Domain.hpp
+[50.097s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/domain/DomainParticipantRegistry.hpp
+[50.097s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/ForwardDeclarations.hpp
+[50.097s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds
+[50.097s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/pub
+[50.097s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/pub/ddspub.hpp
+[50.097s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/pub/discovery.hpp
+[50.097s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail
+[50.098s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/ddspub.hpp
+[50.098s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/discovery.hpp
+[50.098s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/TSuspendedPublicationImpl.hpp
+[50.098s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/DataWriter.hpp
+[50.099s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/Publisher.hpp
+[50.099s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/CoherentSet.hpp
+[50.100s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/SuspendedPublication.hpp
+[50.103s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/TPublisherImpl.hpp
+[50.103s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/AnyDataWriter.hpp
+[50.103s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/TAnyDataWriterImpl.hpp
+[50.103s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/find.hpp
+[50.104s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/TCoherentSetImpl.hpp
+[50.104s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/DataWriterImpl.hpp
+[50.104s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/pub/TCoherentSet.hpp
+[50.104s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/pub/TPublisher.hpp
+[50.104s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/pub/TSuspendedPublication.hpp
+[50.104s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/pub/DataWriter.hpp
+[50.105s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/pub/Publisher.hpp
+[50.105s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/pub/CoherentSet.hpp
+[50.105s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/pub/SuspendedPublication.hpp
+[50.107s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/pub/PublisherListener.hpp
+[50.109s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/pub/DataWriterListener.hpp
+[50.109s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/pub/TAnyDataWriter.hpp
+[50.109s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/pub/AnyDataWriter.hpp
+[50.109s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/pub/qos
+[50.113s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/pub/qos/detail
+[50.113s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/pub/qos/detail/DataWriterQos.hpp
+[50.113s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/pub/qos/detail/PublisherQos.hpp
+[50.113s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/pub/qos/DataWriterQos.hpp
+[50.114s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/pub/qos/PublisherQos.hpp
+[50.114s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/pub/find.hpp
+[50.114s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/pub/AnyDataWriterListener.hpp
+[50.114s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/topic
+[50.114s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TFilter.hpp
+[50.114s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TBuiltinTopic.hpp
+[50.115s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/topic/discovery.hpp
+[50.115s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail
+[50.115s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TAnyTopicImpl.hpp
+[50.115s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TBuiltinTopicKeyImpl.hpp
+[50.115s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/discovery.hpp
+[50.115s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TBuiltinTopicImpl.hpp
+[50.116s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/ContentFilteredTopic.hpp
+[50.120s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/Filter.hpp
+[50.120s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/BuiltinTopic.hpp
+[50.121s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TopicDescription.hpp
+[50.121s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/MultiTopic.hpp
+[50.121s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TFilterImpl.hpp
+[50.121s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/BuiltinTopicKey.hpp
+[50.121s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/find.hpp
+[50.121s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/Topic.hpp
+[50.122s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TContentFilteredTopicImpl.hpp
+[50.124s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TopicInstanceImpl.hpp
+[50.124s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TTopicDescriptionImpl.hpp
+[50.124s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/ddstopic.hpp
+[50.125s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/AnyTopic.hpp
+[50.127s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TTopicImpl.hpp
+[50.127s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/topic/ContentFilteredTopic.hpp
+[50.131s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TopicTraits.hpp
+[50.131s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/topic/Filter.hpp
+[50.131s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/topic/BuiltinTopic.hpp
+[50.131s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TAnyTopic.hpp
+[50.131s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TopicDescription.hpp
+[50.132s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/topic/MultiTopic.hpp
+[50.132s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/topic/BuiltinTopicKey.hpp
+[50.132s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TMultiTopic.hpp
+[50.132s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/topic/qos
+[50.132s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/topic/qos/TopicQos.hpp
+[50.132s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/topic/qos/detail
+[50.132s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/topic/qos/detail/TopicQos.hpp
+[50.133s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TopicInstance.hpp
+[50.134s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/topic/find.hpp
+[50.134s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/topic/Topic.hpp
+[50.134s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TContentFilteredTopic.hpp
+[50.137s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TTopicDescription.hpp
+[50.137s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/topic/AnyTopicListener.hpp
+[50.137s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TBuiltinTopicKey.hpp
+[50.137s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/topic/ddstopic.hpp
+[50.138s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TopicListener.hpp
+[50.138s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/topic/AnyTopic.hpp
+[50.138s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TTopic.hpp
+[50.138s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/LICENSE
+[50.138s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core
+[50.143s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/policy
+[50.143s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/policy/detail
+[50.143s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/policy/detail/CorePolicy.hpp
+[50.143s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/policy/detail/TCorePolicyImpl.hpp
+[50.143s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/policy/detail/QosPolicyCount.hpp
+[50.144s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/policy/detail/TQosPolicyCountImpl.hpp
+[50.146s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/policy/CorePolicy.hpp
+[50.146s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/policy/PolicyKind.hpp
+[50.146s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/policy/TQosPolicyCount.hpp
+[50.146s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/policy/QosPolicyCount.hpp
+[50.146s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/policy/TCorePolicy.hpp
+[50.147s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/array.hpp
+[50.147s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/SafeEnumeration.hpp
+[50.153s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail
+[50.153s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/TEntityImpl.hpp
+[50.153s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/TQosProviderImpl.hpp
+[50.153s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/array.hpp
+[50.154s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/ReferenceImpl.hpp
+[50.154s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/ddscore.hpp
+[50.154s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/Entity.hpp
+[50.154s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/BuiltinTopicTypes.hpp
+[50.154s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/TEntityQosImpl.hpp
+[50.154s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/old_win_stdint.h
+[50.155s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/TInstanceHandleImpl.hpp
+[50.155s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/Value.hpp
+[50.155s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/WeakReferenceImpl.hpp
+[50.155s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/export.hpp
+[50.155s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/conformance.hpp
+[50.156s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/inttypes.hpp
+[50.156s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/ref_traits.hpp
+[50.156s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/macros.hpp
+[50.156s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/module_docs.hpp
+[50.157s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/InstanceHandle.hpp
+[50.160s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/QosProvider.hpp
+[50.160s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/Reference.hpp
+[50.160s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/ddscore.hpp
+[50.160s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/Entity.hpp
+[50.160s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/Time.hpp
+[50.161s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/BuiltinTopicTypes.hpp
+[50.161s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond
+[50.161s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail
+[50.161s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail/TGuardConditionImpl.hpp
+[50.161s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail/Condition.hpp
+[50.161s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail/WaitSet.hpp
+[50.161s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail/GuardCondition.hpp
+[50.161s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail/TWaitSetImpl.hpp
+[50.162s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail/TConditionImpl.hpp
+[50.163s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail/TStatusConditionImpl.hpp
+[50.163s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail/StatusCondition.hpp
+[50.163s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/TCondition.hpp
+[50.166s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/TStatusCondition.hpp
+[50.166s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/Condition.hpp
+[50.166s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/WaitSet.hpp
+[50.166s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/TGuardCondition.hpp
+[50.167s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/GuardCondition.hpp
+[50.167s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/StatusCondition.hpp
+[50.167s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/TWaitSet.hpp
+[50.167s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/TEntity.hpp
+[50.167s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/TInstanceHandle.hpp
+[50.167s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/External.hpp
+[50.167s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/status
+[50.167s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/status/detail
+[50.167s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/status/detail/Status.hpp
+[50.168s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/status/detail/TStatusImpl.hpp
+[50.172s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/status/TStatus.hpp
+[50.172s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/status/Status.hpp
+[50.172s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/status/State.hpp
+[50.173s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/TBuiltinTopicTypes.hpp
+[50.173s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/types.hpp
+[50.173s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/Value.hpp
+[50.173s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/WeakReference.hpp
+[50.174s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/LengthUnlimited.hpp
+[50.174s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes
+[50.174s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TDynamicData.hpp
+[50.174s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail
+[50.174s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/DynamicType.hpp
+[50.174s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/Annotation.hpp
+[50.174s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/PrimitiveTypes.hpp
+[50.174s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/CollectionTypes.hpp
+[50.178s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/UnionType.hpp
+[50.178s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/StructType.hpp
+[50.181s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/UnionCase.hpp
+[50.182s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/TypeProvider.hpp
+[50.182s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/DynamicData.hpp
+[50.182s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/MemberType.hpp
+[50.182s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TCollectionTypes.hpp
+[50.182s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/DynamicType.hpp
+[50.183s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/PrimitiveTypes.hpp
+[50.183s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TypeKind.hpp
+[50.187s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/CollectionTypes.hpp
+[50.187s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/UnionType.hpp
+[50.187s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/StructType.hpp
+[50.187s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TStructType.hpp
+[50.188s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/UnionCase.hpp
+[50.188s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TMemberType.hpp
+[50.188s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TypeProvider.hpp
+[50.188s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/DynamicData.hpp
+[50.188s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/MemberType.hpp
+[50.188s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TAnnotation.hpp
+[50.189s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/Annotations.hpp
+[50.189s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TTypeProvider.hpp
+[50.189s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TDynamicType.hpp
+[50.189s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/Optional.hpp
+[50.189s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/conformance.hpp
+[50.190s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/ref_traits.hpp
+[50.190s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/macros.hpp
+[50.190s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/TQosProvider.hpp
+[50.190s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/refmacros.hpp
+[50.191s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/InstanceHandle.hpp
+[50.192s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/Duration.hpp
+[50.192s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/Exception.hpp
+[50.200s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/QosProvider.hpp
+[50.200s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/core/TEntityQos.hpp
+[50.200s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub
+[50.200s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/TRank.hpp
+[50.201s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/TGenerationCount.hpp
+[50.201s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/ddssub.hpp
+[50.201s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/DataReader.hpp
+[50.201s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/discovery.hpp
+[50.201s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/Subscriber.hpp
+[50.201s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail
+[50.201s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TAnyDataReaderImpl.hpp
+[50.201s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/ddssub.hpp
+[50.202s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/DataReader.hpp
+[50.202s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/discovery.hpp
+[50.202s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/Subscriber.hpp
+[50.202s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TCoherentAccessImpl.hpp
+[50.202s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TSampleInfoImpl.hpp
+[50.202s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/SampleInfo.hpp
+[50.203s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/LoanedSamples.hpp
+[50.203s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/SampleRef.hpp
+[50.204s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/Sample.hpp
+[50.204s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TSampleRefImpl.hpp
+[50.204s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TQueryImpl.hpp
+[50.204s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/CoherentAccess.hpp
+[50.208s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/Query.hpp
+[50.208s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TGenerationCountImpl.hpp
+[50.208s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/Manipulators.hpp
+[50.209s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/SharedSamples.hpp
+[50.209s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TDataReaderImpl.hpp
+[50.209s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/SharedSamplesImpl.hpp
+[50.209s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TRankImpl.hpp
+[50.209s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/AnyDataReader.hpp
+[50.209s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/Rank.hpp
+[50.209s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/find.hpp
+[50.209s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TSampleImpl.hpp
+[50.216s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/GenerationCount.hpp
+[50.216s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/LoanedSamplesImpl.hpp
+[50.216s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/SamplesHolder.hpp
+[50.216s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TSubscriberImpl.hpp
+[50.216s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/AnyDataReaderListener.hpp
+[50.217s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/cond
+[50.217s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/cond/QueryCondition.hpp
+[50.217s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/cond/detail
+[50.217s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/cond/detail/QueryCondition.hpp
+[50.217s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/cond/detail/TQueryConditionImpl.hpp
+[50.217s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/cond/detail/TReadConditionImpl.hpp
+[50.217s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/cond/detail/ReadCondition.hpp
+[50.217s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/cond/ReadCondition.hpp
+[50.218s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/cond/TReadCondition.hpp
+[50.218s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/cond/TQueryCondition.hpp
+[50.218s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/TQuery.hpp
+[50.220s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/SampleInfo.hpp
+[50.220s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/TCoherentAccess.hpp
+[50.221s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/LoanedSamples.hpp
+[50.221s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/TSample.hpp
+[50.221s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/SampleRef.hpp
+[50.221s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/Sample.hpp
+[50.221s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/status
+[50.223s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/status/detail
+[50.223s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/status/detail/DataStateImpl.hpp
+[50.223s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/status/DataState.hpp
+[50.223s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/DataReaderListener.hpp
+[50.223s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/CoherentAccess.hpp
+[50.224s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/TSampleInfo.hpp
+[50.224s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/Query.hpp
+[50.224s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/SharedSamples.hpp
+[50.224s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/TSampleRef.hpp
+[50.224s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/TSubscriber.hpp
+[50.232s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/TDataReader.hpp
+[50.232s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/AnyDataReader.hpp
+[50.232s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/qos
+[50.232s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/qos/detail
+[50.232s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/qos/detail/DataReaderQos.hpp
+[50.233s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/qos/detail/SubscriberQos.hpp
+[50.233s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/qos/DataReaderQos.hpp
+[50.233s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/qos/SubscriberQos.hpp
+[50.233s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/Rank.hpp
+[50.233s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/find.hpp
+[50.233s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/GenerationCount.hpp
+[50.233s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/SubscriberListener.hpp
+[50.233s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/sub/TAnyDataReader.hpp
+[50.233s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/domain
+[50.234s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/domain/discovery.hpp
+[50.234s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/domain/DomainParticipantListener.hpp
+[50.234s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/domain/detail
+[50.234s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/domain/detail/TDomainParticipantImpl.hpp
+[50.234s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/domain/detail/DomainParticipant.hpp
+[50.235s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/domain/detail/ddsdomain.hpp
+[50.235s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/domain/DomainParticipant.hpp
+[50.235s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/domain/TDomainParticipant.hpp
+[50.235s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/domain/qos
+[50.239s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/domain/qos/detail
+[50.239s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/domain/qos/detail/DomainParticipantQos.hpp
+[50.239s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/domain/qos/DomainParticipantQos.hpp
+[50.239s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/domain/find.hpp
+[50.239s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/domain/ddsdomain.hpp
+[50.239s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/features.hpp
+[50.240s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/ddscxx/dds/dds.hpp
+[50.240s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds
+[50.240s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsc
+[50.240s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsc/dds_public_qosdefs.h
+[50.244s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsc/dds_internal_api.h
+[50.244s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsc/dds_statistics.h
+[50.245s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsc/dds_public_error.h
+[50.245s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsc/dds_rhc.h
+[50.245s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsc/dds_public_status.h
+[50.249s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsc/dds_public_impl.h
+[50.249s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsc/dds_loan_api.h
+[50.249s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsc/dds_public_alloc.h
+[50.250s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsc/dds_basic_types.h
+[50.254s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsc/dds_data_allocator.h
+[50.254s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsc/dds_public_qos.h
+[50.254s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsc/dds_public_listener.h
+[50.254s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsc/dds_opcodes.h
+[50.254s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/dds.h
+[50.255s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/export.h
+[50.255s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi
+[50.255s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/q_receive.h
+[50.255s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_xt_typemap.h
+[50.255s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_domaingv.h
+[50.255s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_list_tmpl.h
+[50.255s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/q_thread.h
+[50.255s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_security_util.h
+[50.256s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_participant.h
+[50.256s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_raweth.h
+[50.256s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/q_lat_estim.h
+[50.256s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/q_xmsg.h
+[50.256s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_handshake.h
+[50.256s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/q_misc.h
+[50.256s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/q_unused.h
+[50.256s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/q_rtps.h
+[50.257s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_typelib.h
+[50.257s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_topic.h
+[50.257s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_security_exchange.h
+[50.257s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/q_protocol.h
+[50.257s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_entity_index.h
+[50.264s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_typelookup.h
+[50.264s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_plist_generic.h
+[50.264s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_rhc.h
+[50.264s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_plist.h
+[50.264s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/q_bswap.h
+[50.265s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_cfgunits.h
+[50.265s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_ipaddr.h
+[50.265s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/q_freelist.h
+[50.265s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/q_debmon.h
+[50.265s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/q_inverse_uint32_set.h
+[50.265s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_vendor.h
+[50.265s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_serdata_plist.h
+[50.265s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/q_lease.h
+[50.265s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_deadline.h
+[50.265s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_config.h
+[50.266s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_udp.h
+[50.266s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_builtin_topic_if.h
+[50.266s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_ownip.h
+[50.266s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_security_msg.h
+[50.268s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_xt_impl.h
+[50.275s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_wraddrset.h
+[50.275s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_xt_typelookup.idl
+[50.275s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_mcgroup.h
+[50.275s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/q_pcap.h
+[50.276s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_shm_transport.h
+[50.276s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_tran.h
+[50.276s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/q_log.h
+[50.276s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_xt_typemap.idl
+[50.276s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/q_qosmatch.h
+[50.283s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_keyhash.h
+[50.283s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_sertype.h
+[50.285s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_iid.h
+[50.285s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_list_genptr.h
+[50.285s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_serdata_pserop.h
+[50.285s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_proxy_participant.h
+[50.285s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_xt_typelookup.h
+[50.286s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_sertopic.h
+[50.286s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/q_sockwaitset.h
+[50.286s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/q_init.h
+[50.286s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/q_bitset.h
+[50.286s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_acknack.h
+[50.286s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_typebuilder.h
+[50.286s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/q_gc.h
+[50.286s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_xt_typeinfo.h
+[50.287s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/q_addrset.h
+[50.287s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_vnet.h
+[50.287s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_typewrap.h
+[50.287s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_entity_match.h
+[50.287s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_tkmap.h
+[50.287s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_tcp.h
+[50.287s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/q_transmit.h
+[50.287s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_serdata.h
+[50.288s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/q_ddsi_discovery.h
+[50.288s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_time.h
+[50.288s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_guid.h
+[50.288s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/q_radmin.h
+[50.288s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_proxy_endpoint.h
+[50.288s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_entity.h
+[50.288s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_security_omg.h
+[50.288s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_portmapping.h
+[50.289s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_deliver_locally.h
+[50.289s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_cfgelems.h
+[50.289s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_statistics.h
+[50.289s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_serdata_default.h
+[50.289s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/q_hbcontrol.h
+[50.290s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/sysdeps.h
+[50.290s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_ssl.h
+[50.290s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_locator.h
+[50.290s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_pmd.h
+[50.290s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/q_whc.h
+[50.290s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_endpoint.h
+[50.290s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_xt_typeinfo.idl
+[50.291s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_config_impl.h
+[50.293s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_cdrstream.h
+[50.295s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/q_xevent.h
+[50.295s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_threadmon.h
+[50.295s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/q_feature_check.h
+[50.295s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_lifespan.h
+[50.296s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_xqos.h
+[50.296s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt
+[50.296s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/filesystem.h
+[50.296s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/random.h
+[50.296s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/time
+[50.300s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/time/freertos.h
+[50.300s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/heap.h
+[50.300s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/static_assert.h
+[50.300s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/bswap.h
+[50.300s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/mh3.h
+[50.301s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/hopscotch.h
+[50.301s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/atomics
+[50.301s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/atomics/msvc.h
+[50.301s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/atomics/arm.h
+[50.301s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/atomics/gcc.h
+[50.301s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/atomics/sun.h
+[50.302s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/netstat.h
+[50.302s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/types.h
+[50.302s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/iovec.h
+[50.303s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/atomics.h
+[50.303s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/threads
+[50.303s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/threads/windows.h
+[50.303s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/threads/freertos.h
+[50.303s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/threads/posix.h
+[50.303s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/sockets.h
+[50.304s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/io.h
+[50.307s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/threads.h
+[50.308s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/string.h
+[50.312s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/circlist.h
+[50.312s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/attributes.h
+[50.313s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/sched.h
+[50.313s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/xmlparser.h
+[50.313s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/strtol.h
+[50.313s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/types
+[50.313s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/types/windows.h
+[50.313s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/types/vxworks.h
+[50.313s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/types/posix.h
+[50.314s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/ifaddrs.h
+[50.314s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/cdtors.h
+[50.314s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/time.h
+[50.314s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/countargs.h
+[50.314s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/sync
+[50.315s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/sync/windows.h
+[50.315s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/sync/freertos.h
+[50.315s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/sync/posix.h
+[50.315s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/rusage.h
+[50.316s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/strtod.h
+[50.316s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/endian.h
+[50.320s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/log.h
+[50.320s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/sockets
+[50.320s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/sockets/windows.h
+[50.321s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/sockets/posix.h
+[50.321s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/md5.h
+[50.321s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/retcode.h
+[50.321s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/align.h
+[50.321s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/process.h
+[50.322s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/filesystem
+[50.322s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/filesystem/windows.h
+[50.322s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/filesystem/posix.h
+[50.322s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/environ.h
+[50.322s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/sync.h
+[50.323s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/avl.h
+[50.323s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/misc.h
+[50.323s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/fibheap.h
+[50.323s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/arch.h
+[50.327s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/expand_vars.h
+[50.327s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/ddsrt/dynlib.h
+[50.327s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/features.h
+[50.327s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/config.h
+[50.328s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_sdk2/include/dds/version.h
+[50.335s] Invoked command in '/home/issatay/Desktop/unitree_ws/build/unitree_sdk2' returned '0': /usr/bin/cmake --install /home/issatay/Desktop/unitree_ws/build/unitree_sdk2

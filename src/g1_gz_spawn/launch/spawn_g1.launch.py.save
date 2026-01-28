@@ -1,0 +1,43 @@
+from launch import LaunchDescription
+from launch.actions import IncludeLaunchDescription
+from launch.launch_description_sources import PythonLaunchDescriptionSource
+from launch_ros.actions import Node
+from ament_index_python.packages import get_package_share_directory
+import os
+
+def generate_launch_description():
+    urdf_path = os.path.expanduser('~/unitree_ws/tmp/g1_23dof_gz.urdf')
+# Launch Gazebo (empty world)
+    ros_gz_sim_share = get_package_share_directory('ros_gz_sim')
+    gz = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(
+            os.path.join(ros_gz_sim_share, 'launch', 'gz_sim.launch.py')
+        ),
+        launch_arguments={'gz_args': '-r empty.sdf'}.items()
+    )
+
+    # Load G1 URDF (change filename if needed)
+    g1_share = get_package_share_directory('g1_description')
+    
+    robot_description = open(urdf_path).read()
+
+    # Publish /robot_description
+    rsp = Node(
+        package='robot_state_publisher',
+        executable='robot_state_publisher',
+        output='screen',
+        parameters=[{'robot_description': robot_description}],
+    )
+
+    # Spawn robot from /robot_description into Gazebo
+    spawn = Node(
+        package='ros_gz_sim',
+        executable='create',
+        output='screen',
+        arguments=['-name', 'g1', '-topic', 'robot_description'],
+    )
+
+    return LaunchDescription([gz, rsp, spawn])
+
+
+

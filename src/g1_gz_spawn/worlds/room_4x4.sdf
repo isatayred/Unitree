@@ -1,0 +1,120 @@
+<?xml version="1.0" ?>
+<sdf version="1.7">
+  <world name="room_4x4_world">
+
+    <!-- Floor -->
+    <model name="floor">
+      <static>true</static>
+      <pose>0 0 0 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>4 4 0.1</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <cast_shadows>true</cast_shadows>
+          <geometry>
+            <box>
+              <size>4 4 0.1</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+            <diffuse>0.5 0.5 0.5 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Walls -->
+    <!-- X+ -->
+    <model name="wall_x_plus">
+      <static>true</static>
+      <pose>2.025 0 0.5 0 0 0</pose>
+      <link name="link">
+        <collision name="col">
+          <geometry><box><size>0.05 4 1</size></box></geometry>
+        </collision>
+        <visual name="vis">
+          <cast_shadows>true</cast_shadows>
+          <geometry><box><size>0.05 4 1</size></box></geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+            <diffuse>0.5 0.5 0.5 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- X- -->
+    <model name="wall_x_minus">
+      <static>true</static>
+      <pose>-2.025 0 0.5 0 0 0</pose>
+      <link name="link">
+        <collision name="col">
+          <geometry><box><size>0.05 4 1</size></box></geometry>
+        </collision>
+        <visual name="vis">
+          <cast_shadows>true</cast_shadows>
+          <geometry><box><size>0.05 4 1</size></box></geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+            <diffuse>0.5 0.5 0.5 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Y+ -->
+    <model name="wall_y_plus">
+      <static>true</static>
+      <pose>0 2.025 0.5 0 0 0</pose>
+      <link name="link">
+        <collision name="col">
+          <geometry><box><size>4 0.05 1</size></box></geometry>
+        </collision>
+        <visual name="vis">
+          <cast_shadows>true</cast_shadows>
+          <geometry><box><size>4 0.05 1</size></box></geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+            <diffuse>0.5 0.5 0.5 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Y- -->
+    <model name="wall_y_minus">
+      <static>true</static>
+      <pose>0 -2.025 0.5 0 0 0</pose>
+      <link name="link">
+        <collision name="col">
+          <geometry><box><size>4 0.05 1</size></box></geometry>
+        </collision>
+        <visual name="vis">
+          <cast_shadows>true</cast_shadows>
+          <geometry><box><size>4 0.05 1</size></box></geometry>
+          <material>
+            <ambient>0.5 0.5 0.5 1</ambient>
+            <diffuse>0.5 0.5 0.5 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+  </world>
+  
+  <!-- Directional light to illuminate the room and enable visible shadows -->
+  <light name="sun" type="directional">
+    <cast_shadows>true</cast_shadows>
+    <pose>0 0 10 0 0 0</pose>
+    <direction>0 0 -1</direction>
+    <diffuse>1 1 1 1</diffuse>
+    <specular>0.2 0.2 0.2 1</specular>
+  </light>
+</sdf>
+

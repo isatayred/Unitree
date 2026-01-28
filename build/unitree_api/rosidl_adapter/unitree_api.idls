@@ -1,0 +1,8 @@
+/home/issatay/Desktop/unitree_ws/build/unitree_api/rosidl_adapter/unitree_api:msg/Request.idl
+/home/issatay/Desktop/unitree_ws/build/unitree_api/rosidl_adapter/unitree_api:msg/RequestHeader.idl
+/home/issatay/Desktop/unitree_ws/build/unitree_api/rosidl_adapter/unitree_api:msg/RequestIdentity.idl
+/home/issatay/Desktop/unitree_ws/build/unitree_api/rosidl_adapter/unitree_api:msg/RequestLease.idl
+/home/issatay/Desktop/unitree_ws/build/unitree_api/rosidl_adapter/unitree_api:msg/RequestPolicy.idl
+/home/issatay/Desktop/unitree_ws/build/unitree_api/rosidl_adapter/unitree_api:msg/Response.idl
+/home/issatay/Desktop/unitree_ws/build/unitree_api/rosidl_adapter/unitree_api:msg/ResponseHeader.idl
+/home/issatay/Desktop/unitree_ws/build/unitree_api/rosidl_adapter/unitree_api:msg/ResponseStatus.idl

@@ -1,0 +1,536 @@
+[0.024s] Invoking command in '/home/issatay/Desktop/unitree_ws/build/unitree_hg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/issatay/Desktop/unitree_ws/install/g1_gz_spawn:/home/issatay/Desktop/unitree_ws/install/g1_bringup:/opt/ros/humble /usr/bin/cmake /home/issatay/Desktop/unitree_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg -DCMAKE_INSTALL_PREFIX=/home/issatay/Desktop/unitree_ws/install/unitree_hg
+[0.578s] -- The C compiler identification is GNU 11.4.0
+[0.578s] -- The CXX compiler identification is GNU 11.4.0
+[0.579s] -- Detecting C compiler ABI info
+[0.579s] -- Detecting C compiler ABI info - done
+[0.580s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.580s] -- Detecting C compile features
+[0.580s] -- Detecting C compile features - done
+[0.580s] -- Detecting CXX compiler ABI info
+[0.581s] -- Detecting CXX compiler ABI info - done
+[0.582s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.583s] -- Detecting CXX compile features
+[0.583s] -- Detecting CXX compile features - done
+[0.583s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.583s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.583s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.592s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.596s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.605s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.620s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.636s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.678s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.688s] -- Found rosidl_generator_dds_idl: 0.8.1 (/opt/ros/humble/share/rosidl_generator_dds_idl/cmake)
+[1.118s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.158s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.576s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.617s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.625s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.697s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.698s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.698s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.698s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.811s] -- Found PythonExtra: .so  
+[3.115s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.154s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.158s] -- Added test 'lint_cmake' to check CMake code style
+[3.205s] -- Added test 'xmllint' to check XML markup files
+[3.205s] -- Configuring done
+[3.277s] -- Generating done
+[3.306s] -- Build files have been written to: /home/issatay/Desktop/unitree_ws/build/unitree_hg
+[3.348s] Invoked command in '/home/issatay/Desktop/unitree_ws/build/unitree_hg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/issatay/Desktop/unitree_ws/install/g1_gz_spawn:/home/issatay/Desktop/unitree_ws/install/g1_bringup:/opt/ros/humble /usr/bin/cmake /home/issatay/Desktop/unitree_ws/src/unitree_ros2/cyclonedds_ws/src/unitree/unitree_hg -DCMAKE_INSTALL_PREFIX=/home/issatay/Desktop/unitree_ws/install/unitree_hg
+[3.350s] Invoking command in '/home/issatay/Desktop/unitree_ws/build/unitree_hg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/issatay/Desktop/unitree_ws/install/g1_gz_spawn:/home/issatay/Desktop/unitree_ws/install/g1_bringup:/opt/ros/humble /usr/bin/cmake --build /home/issatay/Desktop/unitree_ws/build/unitree_hg -- -j16 -l16
+[3.497s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.538s] [  2%] [34m[1mGenerating DDS interfaces[0m
+[3.565s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.603s] [  2%] Built target ament_cmake_python_copy_unitree_hg
+[4.482s] running egg_info
+[4.487s] creating unitree_hg.egg-info
+[4.488s] writing unitree_hg.egg-info/PKG-INFO
+[4.488s] writing dependency_links to unitree_hg.egg-info/dependency_links.txt
+[4.489s] writing top-level names to unitree_hg.egg-info/top_level.txt
+[4.493s] writing manifest file 'unitree_hg.egg-info/SOURCES.txt'
+[4.535s] reading manifest file 'unitree_hg.egg-info/SOURCES.txt'
+[4.545s] writing manifest file 'unitree_hg.egg-info/SOURCES.txt'
+[4.672s] [  2%] Built target ament_cmake_python_build_unitree_hg_egg
+[5.384s] [  2%] Built target unitree_hg__dds_connext_idl
+[8.385s] [  3%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/bms_cmd__functions.c.o[0m
+[8.404s] [  4%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/imu_state__functions.c.o[0m
+[8.405s] [  5%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/hand_cmd__functions.c.o[0m
+[8.406s] [  6%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/bms_state__functions.c.o[0m
+[8.423s] [  7%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/hand_state__functions.c.o[0m
+[8.424s] [  7%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/low_cmd__functions.c.o[0m
+[8.441s] [  8%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/low_state__functions.c.o[0m
+[8.457s] [  9%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/main_board_state__functions.c.o[0m
+[8.458s] [ 10%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/motor_cmd__functions.c.o[0m
+[8.508s] [ 11%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/motor_state__functions.c.o[0m
+[8.538s] [ 12%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_c.dir/rosidl_generator_c/unitree_hg/msg/detail/press_sensor_state__functions.c.o[0m
+[8.769s] [ 13%] [32m[1mLinking C shared library libunitree_hg__rosidl_generator_c.so[0m
+[8.934s] [ 13%] Built target unitree_hg__rosidl_generator_c
+[8.967s] [ 13%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[8.968s] [ 13%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[8.974s] [ 13%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[9.005s] [ 13%] Built target unitree_hg__cpp
+[9.049s] [ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[9.068s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[9.096s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[11.122s] [ 17%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/bms_cmd__type_support.cpp.o[0m
+[11.155s] [ 18%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/bms_state__type_support.cpp.o[0m
+[11.163s] [ 19%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/hand_state__type_support.cpp.o[0m
+[11.186s] [ 20%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/hand_cmd__type_support.cpp.o[0m
+[11.187s] [ 21%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/imu_state__type_support.cpp.o[0m
+[11.192s] [ 22%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/low_cmd__type_support.cpp.o[0m
+[11.229s] [ 23%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/low_state__type_support.cpp.o[0m
+[11.248s] [ 24%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/main_board_state__type_support.cpp.o[0m
+[11.273s] [ 24%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/motor_cmd__type_support.cpp.o[0m
+[11.315s] [ 25%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/press_sensor_state__type_support.cpp.o[0m
+[11.315s] [ 26%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/motor_state__type_support.cpp.o[0m
+[11.315s] [ 27%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/bms_cmd__type_support_c.cpp.o[0m
+[11.363s] [ 28%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/bms_state__type_support_c.cpp.o[0m
+[11.371s] [ 29%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/hand_cmd__type_support_c.cpp.o[0m
+[11.394s] [ 30%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/hand_state__type_support_c.cpp.o[0m
+[11.394s] [ 31%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/main_board_state__type_support_c.cpp.o[0m
+[11.396s] [ 32%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/low_cmd__type_support_c.cpp.o[0m
+[11.400s] [ 33%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/low_state__type_support_c.cpp.o[0m
+[11.425s] [ 34%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/imu_state__type_support_c.cpp.o[0m
+[11.464s] [ 34%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/motor_cmd__type_support_c.cpp.o[0m
+[11.482s] [ 35%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/bms_cmd__type_support.cpp.o[0m
+[11.483s] [ 36%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/press_sensor_state__type_support_c.cpp.o[0m
+[11.484s] [ 37%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/unitree_hg/msg/detail/motor_state__type_support_c.cpp.o[0m
+[11.502s] [ 38%] [32m[1mLinking CXX shared library libunitree_hg__rosidl_typesupport_c.so[0m
+[11.692s] [ 38%] Built target unitree_hg__rosidl_typesupport_c
+[11.840s] [ 39%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/bms_state__type_support.cpp.o[0m
+[12.459s] [ 40%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/bms_cmd__type_support.cpp.o[0m
+[12.847s] [ 41%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/bms_state__type_support.cpp.o[0m
+[13.227s] [ 42%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_hg/msg/bms_cmd__type_support.cpp.o[0m
+[13.241s] [ 43%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_hg/msg/bms_state__type_support.cpp.o[0m
+[13.249s] [ 43%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/hand_cmd__type_support.cpp.o[0m
+[13.276s] [ 43%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_hg/msg/hand_cmd__type_support.cpp.o[0m
+[13.312s] [ 44%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/hand_state__type_support.cpp.o[0m
+[13.324s] [ 45%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_hg/msg/hand_state__type_support.cpp.o[0m
+[13.410s] [ 46%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/imu_state__type_support.cpp.o[0m
+[13.420s] [ 46%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/hand_cmd__type_support.cpp.o[0m
+[13.833s] [ 47%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/low_cmd__type_support.cpp.o[0m
+[13.895s] [ 48%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_hg/msg/imu_state__type_support.cpp.o[0m
+[13.901s] [ 49%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/hand_state__type_support.cpp.o[0m
+[14.219s] [ 50%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_hg/msg/low_cmd__type_support.cpp.o[0m
+[14.256s] [ 51%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/imu_state__type_support.cpp.o[0m
+[14.300s] [ 52%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/low_state__type_support.cpp.o[0m
+[14.314s] [ 53%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_hg/msg/low_state__type_support.cpp.o[0m
+[14.336s] [ 54%] [32m[1mLinking CXX shared library libunitree_hg__rosidl_typesupport_fastrtps_c.so[0m
+[14.572s] [ 55%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/main_board_state__type_support.cpp.o[0m
+[14.611s] [ 56%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/motor_cmd__type_support.cpp.o[0m
+[14.686s] [ 57%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_hg/msg/main_board_state__type_support.cpp.o[0m
+[14.688s] [ 57%] Built target unitree_hg__rosidl_typesupport_fastrtps_c
+[14.713s] [ 58%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_hg/msg/motor_cmd__type_support.cpp.o[0m
+[14.747s] [ 59%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/low_cmd__type_support.cpp.o[0m
+[14.782s] [ 60%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/motor_state__type_support.cpp.o[0m
+[14.885s] [ 61%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/unitree_hg/msg/detail/press_sensor_state__type_support.cpp.o[0m
+[14.896s] [ 62%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/low_state__type_support.cpp.o[0m
+[14.999s] [ 63%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/main_board_state__type_support.cpp.o[0m
+[15.370s] [ 64%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_hg/msg/motor_state__type_support.cpp.o[0m
+[15.554s] [ 65%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/unitree_hg/msg/press_sensor_state__type_support.cpp.o[0m
+[15.554s] [ 66%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/motor_cmd__type_support.cpp.o[0m
+[15.554s] [ 67%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/bms_cmd__type_support.c.o[0m
+[15.674s] [ 68%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/bms_state__type_support.c.o[0m
+[15.836s] [ 69%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/hand_cmd__type_support.c.o[0m
+[15.861s] [ 70%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/hand_state__type_support.c.o[0m
+[15.923s] [ 71%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/motor_state__type_support.cpp.o[0m
+[15.941s] [ 72%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/unitree_hg/msg/detail/dds_fastrtps/press_sensor_state__type_support.cpp.o[0m
+[15.950s] [ 73%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/imu_state__type_support.c.o[0m
+[16.013s] [ 74%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/low_cmd__type_support.c.o[0m
+[16.047s] [ 75%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/low_state__type_support.c.o[0m
+[16.113s] [ 76%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/main_board_state__type_support.c.o[0m
+[16.131s] [ 76%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/motor_cmd__type_support.c.o[0m
+[16.197s] [ 77%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/motor_state__type_support.c.o[0m
+[16.280s] [ 78%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/press_sensor_state__type_support.c.o[0m
+[16.422s] [ 79%] [32m[1mLinking C shared library libunitree_hg__rosidl_typesupport_introspection_c.so[0m
+[16.580s] [ 79%] Built target unitree_hg__rosidl_typesupport_introspection_c
+[17.189s] [ 80%] [32m[1mLinking CXX shared library libunitree_hg__rosidl_typesupport_cpp.so[0m
+[17.247s] [ 81%] [32m[1mLinking CXX shared library libunitree_hg__rosidl_typesupport_introspection_cpp.so[0m
+[17.375s] [ 82%] [32m[1mLinking CXX shared library libunitree_hg__rosidl_typesupport_fastrtps_cpp.so[0m
+[17.414s] [ 82%] Built target unitree_hg__rosidl_typesupport_cpp
+[17.778s] [ 82%] Built target unitree_hg__rosidl_typesupport_introspection_cpp
+[17.827s] [ 82%] Built target unitree_hg__rosidl_typesupport_fastrtps_cpp
+[17.909s] [ 82%] Built target unitree_hg
+[18.001s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[23.179s] [ 83%] Built target unitree_hg__py
+[23.276s] [ 84%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_py.dir/rosidl_generator_py/unitree_hg/msg/_bms_cmd_s.c.o[0m
+[23.279s] [ 85%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_py.dir/rosidl_generator_py/unitree_hg/msg/_imu_state_s.c.o[0m
+[23.280s] [ 86%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_py.dir/rosidl_generator_py/unitree_hg/msg/_hand_state_s.c.o[0m
+[23.286s] [ 86%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_py.dir/rosidl_generator_py/unitree_hg/msg/_hand_cmd_s.c.o[0m
+[23.289s] [ 87%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_py.dir/rosidl_generator_py/unitree_hg/msg/_bms_state_s.c.o[0m
+[23.301s] [ 88%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_py.dir/rosidl_generator_py/unitree_hg/msg/_main_board_state_s.c.o[0m
+[23.309s] [ 89%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_py.dir/rosidl_generator_py/unitree_hg/msg/_motor_cmd_s.c.o[0m
+[23.309s] [ 90%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_py.dir/rosidl_generator_py/unitree_hg/msg/_low_state_s.c.o[0m
+[23.319s] [ 91%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_py.dir/rosidl_generator_py/unitree_hg/msg/_motor_state_s.c.o[0m
+[23.334s] [ 92%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_py.dir/rosidl_generator_py/unitree_hg/msg/_low_cmd_s.c.o[0m
+[23.359s] [ 93%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_generator_py.dir/rosidl_generator_py/unitree_hg/msg/_press_sensor_state_s.c.o[0m
+[24.126s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/unitree_hg/libunitree_hg__rosidl_generator_py.so[0m
+[24.334s] [ 94%] Built target unitree_hg__rosidl_generator_py
+[24.423s] [ 95%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/unitree_hg/_unitree_hg_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[24.444s] [ 96%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/unitree_hg/_unitree_hg_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[24.468s] [ 97%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/unitree_hg/_unitree_hg_s.ep.rosidl_typesupport_c.c.o[0m
+[24.805s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/unitree_hg/unitree_hg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[24.963s] [ 98%] Built target unitree_hg__rosidl_typesupport_c__pyext
+[25.093s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/unitree_hg/unitree_hg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[25.113s] [100%] [32m[1mLinking C shared library rosidl_generator_py/unitree_hg/unitree_hg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[25.276s] [100%] Built target unitree_hg__rosidl_typesupport_introspection_c__pyext
+[25.383s] [100%] Built target unitree_hg__rosidl_typesupport_fastrtps_c__pyext
+[25.437s] Invoked command in '/home/issatay/Desktop/unitree_ws/build/unitree_hg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/issatay/Desktop/unitree_ws/install/g1_gz_spawn:/home/issatay/Desktop/unitree_ws/install/g1_bringup:/opt/ros/humble /usr/bin/cmake --build /home/issatay/Desktop/unitree_ws/build/unitree_hg -- -j16 -l16
+[25.450s] Invoking command in '/home/issatay/Desktop/unitree_ws/build/unitree_hg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/issatay/Desktop/unitree_ws/install/g1_gz_spawn:/home/issatay/Desktop/unitree_ws/install/g1_bringup:/opt/ros/humble /usr/bin/cmake --install /home/issatay/Desktop/unitree_ws/build/unitree_hg
+[25.479s] -- Install configuration: ""
+[25.480s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/ament_index/resource_index/rosidl_interfaces/unitree_hg
+[25.484s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg
+[25.484s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg
+[25.484s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/rosidl_generator_c__visibility_control.h
+[25.485s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/motor_state.h
+[25.494s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/motor_cmd.h
+[25.495s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/low_cmd.h
+[25.495s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/imu_state.h
+[25.495s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail
+[25.495s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__functions.h
+[25.495s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__struct.h
+[25.495s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__functions.c
+[25.495s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__functions.c
+[25.495s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__functions.h
+[25.496s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__struct.h
+[25.497s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__type_support.h
+[25.499s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__functions.h
+[25.499s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__functions.c
+[25.499s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__functions.c
+[25.499s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__functions.h
+[25.500s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__functions.c
+[25.500s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__type_support.h
+[25.500s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__functions.c
+[25.500s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__functions.c
+[25.500s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__struct.h
+[25.500s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__type_support.h
+[25.500s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__functions.c
+[25.500s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__struct.h
+[25.500s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__struct.h
+[25.501s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__type_support.h
+[25.501s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__type_support.h
+[25.510s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__struct.h
+[25.510s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__functions.h
+[25.510s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__functions.h
+[25.510s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__struct.h
+[25.510s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__functions.h
+[25.511s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__functions.h
+[25.511s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__type_support.h
+[25.511s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__struct.h
+[25.511s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__struct.h
+[25.511s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__functions.h
+[25.511s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__functions.c
+[25.511s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__type_support.h
+[25.511s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__type_support.h
+[25.512s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__functions.c
+[25.512s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__functions.h
+[25.512s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__type_support.h
+[25.512s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__functions.c
+[25.512s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__type_support.h
+[25.512s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__struct.h
+[25.512s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__type_support.h
+[25.513s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__functions.h
+[25.513s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__struct.h
+[25.517s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/hand_cmd.h
+[25.520s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/bms_state.h
+[25.520s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/hand_state.h
+[25.520s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/press_sensor_state.h
+[25.521s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/bms_cmd.h
+[25.521s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/low_state.h
+[25.521s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/main_board_state.h
+[25.521s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/environment/library_path.sh
+[25.524s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/environment/library_path.dsv
+[25.524s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/lib/libunitree_hg__rosidl_generator_c.so
+[25.524s] -- Set runtime path of "/home/issatay/Desktop/unitree_ws/install/unitree_hg/lib/libunitree_hg__rosidl_generator_c.so" to ""
+[25.524s] -- Up-to-date: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg
+[25.524s] -- Up-to-date: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg
+[25.524s] -- Up-to-date: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail
+[25.524s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__rosidl_typesupport_fastrtps_c.h
+[25.525s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__rosidl_typesupport_fastrtps_c.h
+[25.525s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__rosidl_typesupport_fastrtps_c.h
+[25.527s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__rosidl_typesupport_fastrtps_c.h
+[25.527s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__rosidl_typesupport_fastrtps_c.h
+[25.527s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__rosidl_typesupport_fastrtps_c.h
+[25.527s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__rosidl_typesupport_fastrtps_c.h
+[25.528s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__rosidl_typesupport_fastrtps_c.h
+[25.528s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__rosidl_typesupport_fastrtps_c.h
+[25.528s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__rosidl_typesupport_fastrtps_c.h
+[25.528s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__rosidl_typesupport_fastrtps_c.h
+[25.528s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[25.528s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_fastrtps_c.so
+[25.530s] -- Set runtime path of "/home/issatay/Desktop/unitree_ws/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_fastrtps_c.so" to ""
+[25.531s] -- Up-to-date: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg
+[25.531s] -- Up-to-date: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg
+[25.532s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/rosidl_generator_cpp__visibility_control.hpp
+[25.532s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/hand_state.hpp
+[25.541s] -- Up-to-date: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail
+[25.541s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__type_support.hpp
+[25.541s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__type_support.hpp
+[25.542s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__builder.hpp
+[25.542s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__type_support.hpp
+[25.543s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__type_support.hpp
+[25.543s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__type_support.hpp
+[25.543s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__traits.hpp
+[25.546s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__type_support.hpp
+[25.546s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__type_support.hpp
+[25.548s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__type_support.hpp
+[25.548s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__traits.hpp
+[25.555s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__traits.hpp
+[25.555s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__traits.hpp
+[25.555s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__builder.hpp
+[25.555s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__struct.hpp
+[25.555s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__builder.hpp
+[25.556s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__struct.hpp
+[25.556s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__builder.hpp
+[25.556s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__traits.hpp
+[25.556s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__type_support.hpp
+[25.556s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__builder.hpp
+[25.556s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__builder.hpp
+[25.556s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__struct.hpp
+[25.557s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__traits.hpp
+[25.562s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__type_support.hpp
+[25.562s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__traits.hpp
+[25.562s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__builder.hpp
+[25.562s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__struct.hpp
+[25.562s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__traits.hpp
+[25.563s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__struct.hpp
+[25.568s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__builder.hpp
+[25.568s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__struct.hpp
+[25.569s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__struct.hpp
+[25.569s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__struct.hpp
+[25.569s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__traits.hpp
+[25.569s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__type_support.hpp
+[25.570s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__traits.hpp
+[25.570s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__struct.hpp
+[25.572s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__traits.hpp
+[25.573s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__struct.hpp
+[25.579s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__builder.hpp
+[25.579s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__builder.hpp
+[25.579s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__builder.hpp
+[25.580s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__struct.hpp
+[25.580s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/imu_state.hpp
+[25.580s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/low_cmd.hpp
+[25.580s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/bms_cmd.hpp
+[25.581s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/main_board_state.hpp
+[25.582s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/low_state.hpp
+[25.587s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/press_sensor_state.hpp
+[25.587s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/motor_state.hpp
+[25.587s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/hand_cmd.hpp
+[25.588s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/motor_cmd.hpp
+[25.588s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/bms_state.hpp
+[25.588s] -- Up-to-date: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg
+[25.588s] -- Up-to-date: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg
+[25.588s] -- Up-to-date: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail
+[25.588s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__rosidl_typesupport_fastrtps_cpp.hpp
+[25.589s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[25.589s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__rosidl_typesupport_fastrtps_cpp.hpp
+[25.589s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[25.589s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/dds_fastrtps
+[25.589s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__rosidl_typesupport_fastrtps_cpp.hpp
+[25.589s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__rosidl_typesupport_fastrtps_cpp.hpp
+[25.590s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[25.590s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__rosidl_typesupport_fastrtps_cpp.hpp
+[25.590s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[25.590s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__rosidl_typesupport_fastrtps_cpp.hpp
+[25.590s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__rosidl_typesupport_fastrtps_cpp.hpp
+[25.598s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[25.598s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_fastrtps_cpp.so
+[25.598s] -- Set runtime path of "/home/issatay/Desktop/unitree_ws/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_fastrtps_cpp.so" to ""
+[25.599s] -- Up-to-date: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg
+[25.599s] -- Up-to-date: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg
+[25.599s] -- Up-to-date: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail
+[25.599s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__type_support.c
+[25.599s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__rosidl_typesupport_introspection_c.h
+[25.599s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__type_support.c
+[25.599s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__type_support.c
+[25.600s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__rosidl_typesupport_introspection_c.h
+[25.600s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__rosidl_typesupport_introspection_c.h
+[25.600s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__type_support.c
+[25.600s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__type_support.c
+[25.600s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__rosidl_typesupport_introspection_c.h
+[25.600s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__rosidl_typesupport_introspection_c.h
+[25.602s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__rosidl_typesupport_introspection_c.h
+[25.602s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__rosidl_typesupport_introspection_c.h
+[25.605s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__rosidl_typesupport_introspection_c.h
+[25.605s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__rosidl_typesupport_introspection_c.h
+[25.605s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__type_support.c
+[25.605s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__type_support.c
+[25.605s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__rosidl_typesupport_introspection_c.h
+[25.606s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__type_support.c
+[25.606s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__type_support.c
+[25.606s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__rosidl_typesupport_introspection_c.h
+[25.606s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__type_support.c
+[25.606s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__type_support.c
+[25.606s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[25.606s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_introspection_c.so
+[25.606s] -- Set runtime path of "/home/issatay/Desktop/unitree_ws/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_introspection_c.so" to ""
+[25.606s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_c.so
+[25.606s] -- Set runtime path of "/home/issatay/Desktop/unitree_ws/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_c.so" to ""
+[25.607s] -- Up-to-date: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg
+[25.607s] -- Up-to-date: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg
+[25.607s] -- Up-to-date: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail
+[25.607s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__type_support.cpp
+[25.607s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__rosidl_typesupport_introspection_cpp.hpp
+[25.607s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__rosidl_typesupport_introspection_cpp.hpp
+[25.607s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__rosidl_typesupport_introspection_cpp.hpp
+[25.607s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__type_support.cpp
+[25.608s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_cmd__rosidl_typesupport_introspection_cpp.hpp
+[25.612s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__type_support.cpp
+[25.612s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__rosidl_typesupport_introspection_cpp.hpp
+[25.613s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/main_board_state__type_support.cpp
+[25.613s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__type_support.cpp
+[25.613s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/low_state__rosidl_typesupport_introspection_cpp.hpp
+[25.613s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__rosidl_typesupport_introspection_cpp.hpp
+[25.613s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/imu_state__type_support.cpp
+[25.613s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_state__rosidl_typesupport_introspection_cpp.hpp
+[25.614s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/motor_cmd__type_support.cpp
+[25.614s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__type_support.cpp
+[25.614s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__rosidl_typesupport_introspection_cpp.hpp
+[25.614s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_state__rosidl_typesupport_introspection_cpp.hpp
+[25.614s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_cmd__type_support.cpp
+[25.615s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/press_sensor_state__rosidl_typesupport_introspection_cpp.hpp
+[25.615s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/bms_state__type_support.cpp
+[25.615s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/include/unitree_hg/unitree_hg/msg/detail/hand_cmd__type_support.cpp
+[25.615s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_introspection_cpp.so
+[25.619s] -- Set runtime path of "/home/issatay/Desktop/unitree_ws/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_introspection_cpp.so" to ""
+[25.619s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_cpp.so
+[25.619s] -- Set runtime path of "/home/issatay/Desktop/unitree_ws/install/unitree_hg/lib/libunitree_hg__rosidl_typesupport_cpp.so" to ""
+[25.619s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/environment/pythonpath.sh
+[25.620s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/environment/pythonpath.dsv
+[25.620s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg-0.0.0-py3.10.egg-info
+[25.620s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg-0.0.0-py3.10.egg-info/SOURCES.txt
+[25.620s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg-0.0.0-py3.10.egg-info/dependency_links.txt
+[25.620s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg-0.0.0-py3.10.egg-info/top_level.txt
+[25.620s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg-0.0.0-py3.10.egg-info/PKG-INFO
+[25.620s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg
+[25.620s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg
+[25.620s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_press_sensor_state.py
+[25.621s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_hand_cmd.py
+[25.621s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_low_state.py
+[25.621s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_imu_state.py
+[25.621s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_low_cmd_s.c
+[25.621s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_press_sensor_state_s.c
+[25.622s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_bms_state_s.c
+[25.622s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_bms_cmd.py
+[25.622s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_bms_cmd_s.c
+[25.622s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_hand_cmd_s.c
+[25.623s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_low_cmd.py
+[25.623s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_low_state_s.c
+[25.627s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_imu_state_s.c
+[25.627s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_hand_state_s.c
+[25.627s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_motor_state.py
+[25.627s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_bms_state.py
+[25.628s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_main_board_state_s.c
+[25.628s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_hand_state.py
+[25.628s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/__init__.py
+[25.628s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_motor_cmd_s.c
+[25.628s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_main_board_state.py
+[25.628s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_motor_state_s.c
+[25.628s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_motor_cmd.py
+[25.628s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/_unitree_hg_s.ep.rosidl_typesupport_introspection_c.c
+[25.629s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/_unitree_hg_s.ep.rosidl_typesupport_fastrtps_c.c
+[25.629s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[25.629s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[25.629s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/_unitree_hg_s.ep.rosidl_typesupport_c.c
+[25.629s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/libunitree_hg__rosidl_generator_py.so
+[25.629s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[25.629s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/__init__.py
+[25.854s] Listing '/home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg'...
+[25.854s] Compiling '/home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/__init__.py'...
+[25.854s] Listing '/home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg'...
+[25.854s] Compiling '/home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/__init__.py'...
+[25.855s] Compiling '/home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_bms_cmd.py'...
+[25.855s] Compiling '/home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_bms_state.py'...
+[25.855s] Compiling '/home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_hand_cmd.py'...
+[25.855s] Compiling '/home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_hand_state.py'...
+[25.855s] Compiling '/home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_imu_state.py'...
+[25.855s] Compiling '/home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_low_cmd.py'...
+[25.855s] Compiling '/home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_low_state.py'...
+[25.855s] Compiling '/home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_main_board_state.py'...
+[25.856s] Compiling '/home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_motor_cmd.py'...
+[25.856s] Compiling '/home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_motor_state.py'...
+[25.856s] Compiling '/home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/msg/_press_sensor_state.py'...
+[25.869s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[25.869s] -- Set runtime path of "/home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[25.870s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[25.872s] -- Set runtime path of "/home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[25.875s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[25.878s] -- Set runtime path of "/home/issatay/Desktop/unitree_ws/install/unitree_hg/local/lib/python3.10/dist-packages/unitree_hg/unitree_hg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[25.879s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/lib/libunitree_hg__rosidl_generator_py.so
+[25.880s] -- Set runtime path of "/home/issatay/Desktop/unitree_ws/install/unitree_hg/lib/libunitree_hg__rosidl_generator_py.so" to ""
+[25.880s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/msg/BmsCmd.idl
+[25.880s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/msg/BmsState.idl
+[25.880s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/msg/HandCmd.idl
+[25.881s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/msg/HandState.idl
+[25.881s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/msg/IMUState.idl
+[25.881s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/msg/LowCmd.idl
+[25.882s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/msg/LowState.idl
+[25.882s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/msg/MainBoardState.idl
+[25.888s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/msg/MotorCmd.idl
+[25.888s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/msg/MotorState.idl
+[25.888s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/msg/PressSensorState.idl
+[25.888s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/msg/BmsCmd.msg
+[25.889s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/msg/BmsState.msg
+[25.889s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/msg/HandCmd.msg
+[25.889s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/msg/HandState.msg
+[25.890s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/msg/IMUState.msg
+[25.893s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/msg/LowCmd.msg
+[25.893s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/msg/LowState.msg
+[25.893s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/msg/MainBoardState.msg
+[25.893s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/msg/MotorCmd.msg
+[25.895s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/msg/MotorState.msg
+[25.897s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/msg/PressSensorState.msg
+[25.897s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/msg/dds_connext
+[25.897s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/msg/dds_connext/BmsCmd_.idl
+[25.898s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/msg/dds_connext/HandCmd_.idl
+[25.898s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/msg/dds_connext/PressSensorState_.idl
+[25.898s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/msg/dds_connext/LowCmd_.idl
+[25.901s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/msg/dds_connext/BmsState_.idl
+[25.902s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/msg/dds_connext/MotorCmd_.idl
+[25.902s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/msg/dds_connext/MainBoardState_.idl
+[25.902s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/msg/dds_connext/MotorState_.idl
+[25.906s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/msg/dds_connext/HandState_.idl
+[25.906s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/msg/dds_connext/LowState_.idl
+[25.906s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/msg/dds_connext/IMUState_.idl
+[25.907s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/ament_index/resource_index/package_run_dependencies/unitree_hg
+[25.907s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/ament_index/resource_index/parent_prefix_path/unitree_hg
+[25.907s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/environment/ament_prefix_path.sh
+[25.907s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/environment/ament_prefix_path.dsv
+[25.907s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/environment/path.sh
+[25.907s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/environment/path.dsv
+[25.907s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/local_setup.bash
+[25.907s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/local_setup.sh
+[25.908s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/local_setup.zsh
+[25.908s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/local_setup.dsv
+[25.908s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/package.dsv
+[25.908s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/ament_index/resource_index/packages/unitree_hg
+[25.912s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_generator_cExport.cmake
+[25.912s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_generator_cExport-noconfig.cmake
+[25.912s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_typesupport_fastrtps_cExport.cmake
+[25.913s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[25.913s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_generator_cppExport.cmake
+[25.913s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_typesupport_fastrtps_cppExport.cmake
+[25.914s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[25.914s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/cmake/unitree_hg__rosidl_typesupport_introspection_cExport.cmake
+[25.915s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/cmake/unitree_hg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[25.915s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/cmake/unitree_hg__rosidl_typesupport_cExport.cmake
+[25.920s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/cmake/unitree_hg__rosidl_typesupport_cExport-noconfig.cmake
+[25.923s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/cmake/unitree_hg__rosidl_typesupport_introspection_cppExport.cmake
+[25.923s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/cmake/unitree_hg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[25.923s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/cmake/unitree_hg__rosidl_typesupport_cppExport.cmake
+[25.924s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/cmake/unitree_hg__rosidl_typesupport_cppExport-noconfig.cmake
+[25.924s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_generator_pyExport.cmake
+[25.924s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/cmake/export_unitree_hg__rosidl_generator_pyExport-noconfig.cmake
+[25.925s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/cmake/rosidl_cmake-extras.cmake
+[25.926s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/cmake/ament_cmake_export_dependencies-extras.cmake
+[25.926s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/cmake/ament_cmake_export_include_directories-extras.cmake
+[25.926s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/cmake/ament_cmake_export_libraries-extras.cmake
+[25.926s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/cmake/ament_cmake_export_targets-extras.cmake
+[25.929s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[25.929s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[25.929s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/cmake/unitree_hgConfig.cmake
+[25.931s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/cmake/unitree_hgConfig-version.cmake
+[25.931s] -- Installing: /home/issatay/Desktop/unitree_ws/install/unitree_hg/share/unitree_hg/package.xml
+[25.939s] Invoked command in '/home/issatay/Desktop/unitree_ws/build/unitree_hg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/issatay/Desktop/unitree_ws/install/g1_gz_spawn:/home/issatay/Desktop/unitree_ws/install/g1_bringup:/opt/ros/humble /usr/bin/cmake --install /home/issatay/Desktop/unitree_ws/build/unitree_hg
