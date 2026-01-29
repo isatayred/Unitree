@@ -1,0 +1,1 @@
+/home/issatay/Desktop/unitree_ws/src/g1_gz_spawn/scripts/check_sim_env.py

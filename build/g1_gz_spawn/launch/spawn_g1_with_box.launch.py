@@ -1,0 +1,1 @@
+/home/issatay/Desktop/unitree_ws/src/g1_gz_spawn/launch/spawn_g1_with_box.launch.py

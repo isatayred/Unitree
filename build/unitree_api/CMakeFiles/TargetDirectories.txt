@@ -9,7 +9,7 @@
 /home/issatay/Desktop/unitree_ws/build/unitree_api/CMakeFiles/unitree_api__rosidl_typesupport_c.dir
 /home/issatay/Desktop/unitree_ws/build/unitree_api/CMakeFiles/unitree_api__rosidl_typesupport_introspection_cpp.dir
 /home/issatay/Desktop/unitree_ws/build/unitree_api/CMakeFiles/unitree_api__rosidl_typesupport_cpp.dir
-/home/issatay/Desktop/unitree_ws/build/unitree_api/CMakeFiles/ament_cmake_python_copy_unitree_api.dir
+/home/issatay/Desktop/unitree_ws/build/unitree_api/CMakeFiles/ament_cmake_python_symlink_unitree_api.dir
 /home/issatay/Desktop/unitree_ws/build/unitree_api/CMakeFiles/ament_cmake_python_build_unitree_api_egg.dir
 /home/issatay/Desktop/unitree_ws/build/unitree_api/CMakeFiles/unitree_api__rosidl_generator_py.dir
 /home/issatay/Desktop/unitree_ws/build/unitree_api/CMakeFiles/unitree_api__rosidl_typesupport_fastrtps_c__pyext.dir

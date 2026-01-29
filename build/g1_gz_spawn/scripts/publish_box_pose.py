@@ -1,0 +1,1 @@
+/home/issatay/Desktop/unitree_ws/src/g1_gz_spawn/scripts/publish_box_pose.py

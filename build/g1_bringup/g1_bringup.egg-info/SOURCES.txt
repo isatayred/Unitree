@@ -9,7 +9,11 @@ setup.py
 ../../build/g1_bringup/g1_bringup.egg-info/top_level.txt
 ../../build/g1_bringup/g1_bringup.egg-info/zip-safe
 g1_bringup/__init__.py
+g1_bringup.egg-info/PKG-INFO
+g1_bringup.egg-info/SOURCES.txt
+g1_bringup.egg-info/dependency_links.txt
+g1_bringup.egg-info/entry_points.txt
+g1_bringup.egg-info/requires.txt
+g1_bringup.egg-info/top_level.txt
+g1_bringup.egg-info/zip-safe
 resource/g1_bringup
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py

@@ -1,0 +1,22 @@
+[0.962s] Invoking command in '/home/issatay/Desktop/unitree_ws/build/g1_gz_spawn': PYTHONPATH=/home/issatay/Desktop/unitree_ws/build/g1_gz_spawn/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/issatay/Desktop/unitree_ws/install/g1_gz_spawn/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/issatay/Desktop/unitree_ws/build/g1_gz_spawn/build --no-deps symlink_data --force
+[1.185s] running develop
+[1.315s] running egg_info
+[1.315s] writing g1_gz_spawn.egg-info/PKG-INFO
+[1.315s] writing dependency_links to g1_gz_spawn.egg-info/dependency_links.txt
+[1.315s] writing requirements to g1_gz_spawn.egg-info/requires.txt
+[1.315s] writing top-level names to g1_gz_spawn.egg-info/top_level.txt
+[1.317s] reading manifest file 'g1_gz_spawn.egg-info/SOURCES.txt'
+[1.318s] writing manifest file 'g1_gz_spawn.egg-info/SOURCES.txt'
+[1.319s] running build_ext
+[1.319s] Creating /home/issatay/Desktop/unitree_ws/install/g1_gz_spawn/lib/python3.10/site-packages/g1-gz-spawn.egg-link (link to .)
+[1.320s] 
+[1.320s] Installed /home/issatay/Desktop/unitree_ws/build/g1_gz_spawn
+[1.320s] running symlink_data
+[1.320s] symbolically linking /home/issatay/Desktop/unitree_ws/build/g1_gz_spawn/resource/g1_gz_spawn -> /home/issatay/Desktop/unitree_ws/install/g1_gz_spawn/share/ament_index/resource_index/packages
+[1.320s] symbolically linking /home/issatay/Desktop/unitree_ws/build/g1_gz_spawn/package.xml -> /home/issatay/Desktop/unitree_ws/install/g1_gz_spawn/share/g1_gz_spawn
+[1.321s] symbolically linking /home/issatay/Desktop/unitree_ws/build/g1_gz_spawn/launch/spawn_g1.launch.py -> /home/issatay/Desktop/unitree_ws/install/g1_gz_spawn/share/g1_gz_spawn/launch
+[1.321s] symbolically linking /home/issatay/Desktop/unitree_ws/build/g1_gz_spawn/launch/spawn_g1_with_box.launch.py -> /home/issatay/Desktop/unitree_ws/install/g1_gz_spawn/share/g1_gz_spawn/launch
+[1.321s] symbolically linking /home/issatay/Desktop/unitree_ws/build/g1_gz_spawn/worlds/room_4x4.sdf -> /home/issatay/Desktop/unitree_ws/install/g1_gz_spawn/share/g1_gz_spawn/worlds
+[1.321s] symbolically linking /home/issatay/Desktop/unitree_ws/build/g1_gz_spawn/scripts/publish_box_pose.py -> /home/issatay/Desktop/unitree_ws/install/g1_gz_spawn/share/g1_gz_spawn/scripts
+[1.321s] error: [Errno 2] No such file or directory: '/home/issatay/Desktop/unitree_ws/install/g1_gz_spawn/share/g1_gz_spawn/scripts/check_sim_env.py'
+[1.377s] Invoked command in '/home/issatay/Desktop/unitree_ws/build/g1_gz_spawn' returned '1': PYTHONPATH=/home/issatay/Desktop/unitree_ws/build/g1_gz_spawn/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/issatay/Desktop/unitree_ws/install/g1_gz_spawn/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/issatay/Desktop/unitree_ws/build/g1_gz_spawn/build --no-deps symlink_data --force

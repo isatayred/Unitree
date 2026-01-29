@@ -1,3 +1,1 @@
-set(g1_description_INSTALL_PREFIX "${g1_description_DIR}/../")
-get_filename_component(g1_description_INSTALL_PREFIX
-                       "${g1_description_INSTALL_PREFIX}" REALPATH)
+/home/issatay/Desktop/unitree_ws/build/g1_description/cmake/g1_description_INSTALL_PREFIX.cmake
