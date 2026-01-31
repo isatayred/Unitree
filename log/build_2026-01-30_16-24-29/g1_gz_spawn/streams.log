@@ -1,0 +1,19 @@
+[0.518s] Invoking command in '/home/issatay/Desktop/unitree_ws/src/g1_gz_spawn': PYTHONPATH=/home/issatay/Desktop/unitree_ws/build/g1_gz_spawn/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/issatay/Desktop/unitree_ws/install/g1_gz_spawn/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/g1_gz_spawn build --build-base /home/issatay/Desktop/unitree_ws/build/g1_gz_spawn/build install --record /home/issatay/Desktop/unitree_ws/build/g1_gz_spawn/install.log --single-version-externally-managed install_data
+[0.706s] running egg_info
+[0.706s] writing ../../build/g1_gz_spawn/g1_gz_spawn.egg-info/PKG-INFO
+[0.706s] writing dependency_links to ../../build/g1_gz_spawn/g1_gz_spawn.egg-info/dependency_links.txt
+[0.706s] writing requirements to ../../build/g1_gz_spawn/g1_gz_spawn.egg-info/requires.txt
+[0.707s] writing top-level names to ../../build/g1_gz_spawn/g1_gz_spawn.egg-info/top_level.txt
+[0.708s] reading manifest file '../../build/g1_gz_spawn/g1_gz_spawn.egg-info/SOURCES.txt'
+[0.708s] writing manifest file '../../build/g1_gz_spawn/g1_gz_spawn.egg-info/SOURCES.txt'
+[0.709s] running build
+[0.709s] running build_py
+[0.709s] running install
+[0.709s] running install_lib
+[0.710s] running install_data
+[0.710s] running install_egg_info
+[0.711s] removing '/home/issatay/Desktop/unitree_ws/install/g1_gz_spawn/lib/python3.10/site-packages/g1_gz_spawn-0.0.0-py3.10.egg-info' (and everything under it)
+[0.711s] Copying ../../build/g1_gz_spawn/g1_gz_spawn.egg-info to /home/issatay/Desktop/unitree_ws/install/g1_gz_spawn/lib/python3.10/site-packages/g1_gz_spawn-0.0.0-py3.10.egg-info
+[0.712s] running install_scripts
+[0.728s] writing list of installed files to '/home/issatay/Desktop/unitree_ws/build/g1_gz_spawn/install.log'
+[0.749s] Invoked command in '/home/issatay/Desktop/unitree_ws/src/g1_gz_spawn' returned '0': PYTHONPATH=/home/issatay/Desktop/unitree_ws/build/g1_gz_spawn/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/issatay/Desktop/unitree_ws/install/g1_gz_spawn/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/g1_gz_spawn build --build-base /home/issatay/Desktop/unitree_ws/build/g1_gz_spawn/build install --record /home/issatay/Desktop/unitree_ws/build/g1_gz_spawn/install.log --single-version-externally-managed install_data

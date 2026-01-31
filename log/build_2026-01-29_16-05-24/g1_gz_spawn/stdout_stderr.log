@@ -1,0 +1,21 @@
+running develop
+running egg_info
+writing g1_gz_spawn.egg-info/PKG-INFO
+writing dependency_links to g1_gz_spawn.egg-info/dependency_links.txt
+writing requirements to g1_gz_spawn.egg-info/requires.txt
+writing top-level names to g1_gz_spawn.egg-info/top_level.txt
+reading manifest file 'g1_gz_spawn.egg-info/SOURCES.txt'
+writing manifest file 'g1_gz_spawn.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/issatay/Desktop/unitree_ws/install/g1_gz_spawn/lib/python3.10/site-packages/g1-gz-spawn.egg-link (link to .)
+
+Installed /home/issatay/Desktop/unitree_ws/build/g1_gz_spawn
+running symlink_data
+symbolically linking /home/issatay/Desktop/unitree_ws/build/g1_gz_spawn/resource/g1_gz_spawn -> /home/issatay/Desktop/unitree_ws/install/g1_gz_spawn/share/ament_index/resource_index/packages
+symbolically linking /home/issatay/Desktop/unitree_ws/build/g1_gz_spawn/package.xml -> /home/issatay/Desktop/unitree_ws/install/g1_gz_spawn/share/g1_gz_spawn
+symbolically linking /home/issatay/Desktop/unitree_ws/build/g1_gz_spawn/launch/spawn_g1.launch.py -> /home/issatay/Desktop/unitree_ws/install/g1_gz_spawn/share/g1_gz_spawn/launch
+symbolically linking /home/issatay/Desktop/unitree_ws/build/g1_gz_spawn/launch/spawn_g1_with_box.launch.py -> /home/issatay/Desktop/unitree_ws/install/g1_gz_spawn/share/g1_gz_spawn/launch
+symbolically linking /home/issatay/Desktop/unitree_ws/build/g1_gz_spawn/worlds/room_4x4.sdf -> /home/issatay/Desktop/unitree_ws/install/g1_gz_spawn/share/g1_gz_spawn/worlds
+symbolically linking /home/issatay/Desktop/unitree_ws/build/g1_gz_spawn/scripts/publish_box_pose.py -> /home/issatay/Desktop/unitree_ws/install/g1_gz_spawn/share/g1_gz_spawn/scripts
+symbolically linking /home/issatay/Desktop/unitree_ws/build/g1_gz_spawn/scripts/check_sim_env.py -> /home/issatay/Desktop/unitree_ws/install/g1_gz_spawn/share/g1_gz_spawn/scripts
+symbolically linking /home/issatay/Desktop/unitree_ws/build/g1_gz_spawn/models/box.sdf -> /home/issatay/Desktop/unitree_ws/install/g1_gz_spawn/share/g1_gz_spawn/models

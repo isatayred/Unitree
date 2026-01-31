@@ -1,0 +1,37 @@
+[0.817s] Invoking command in '/home/issatay/Desktop/unitree_ws/build/unitree_sdk2': /usr/bin/cmake --build /home/issatay/Desktop/unitree_ws/build/unitree_sdk2 -- -j16 -l16
+[0.904s] [  2%] Built target advanced_gamepad
+[0.911s] [  6%] Built target test_publisher
+[0.923s] [ 10%] Built target test_subscriber
+[0.924s] [ 13%] Built target test_jsonize
+[0.927s] [ 16%] Built target state_machine_example
+[0.927s] [ 20%] Built target go2_sport_client
+[0.927s] [ 22%] Built target go2_video_client
+[0.927s] [ 24%] Built target go2_robot_state_client
+[0.930s] [ 27%] Built target go2_stand_example
+[0.933s] [ 29%] Built target go2_low_level
+[0.936s] [ 32%] Built target h1_loco_client
+[0.940s] [ 35%] Built target go2_vui_client
+[0.940s] [ 37%] Built target h1_low_level_example
+[0.940s] [ 40%] Built target b2_sport_client
+[0.945s] [ 43%] Built target b2_stand_example
+[0.955s] [ 45%] Built target h1_27dof_example
+[0.990s] [ 48%] Built target h1_2_ankle_track
+[0.992s] [ 51%] Built target h1_2_arm_sdk_dds_example
+[0.994s] [ 56%] Built target h1_arm_sdk_dds_example
+[0.995s] [ 54%] Built target g1_loco_client
+[0.995s] [ 59%] Built target g1_ankle_swing_example
+[0.998s] [ 62%] Built target g1_arm5_sdk_dds_example
+[1.015s] [ 64%] Built target g1_arm7_sdk_dds_example
+[1.015s] [ 67%] Built target g1_audio_client_example
+[1.015s] [ 70%] Built target g1_dex3_example
+[1.020s] [ 72%] Built target g1_dual_arm_example
+[1.020s] [ 78%] Built target go2w_sport_client
+[1.020s] [ 78%] Built target g1_termination
+[1.020s] [ 81%] Built target b2w_sport_client
+[1.023s] [ 83%] Built target g1_arm_action_example
+[1.027s] [ 87%] Built target g1_agv_client_example
+[1.027s] [ 89%] Built target go2w_stand_example
+[1.052s] [ 91%] Built target b2w_stand_example
+[1.054s] [ 97%] Built target a2_sport_state
+[1.054s] [ 97%] Built target a2_sport_client
+[1.058s] [100%] Built target a2_audio_client_example

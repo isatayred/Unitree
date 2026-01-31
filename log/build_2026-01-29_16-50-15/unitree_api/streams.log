@@ -1,0 +1,10 @@
+[0.042s] Invoking command in '/home/issatay/Desktop/unitree_ws/build/unitree_api': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/issatay/Desktop/unitree_ws/install/g1_gz_spawn:/home/issatay/Desktop/unitree_ws/install/g1_bringup:/opt/ros/humble /usr/bin/cmake --build /home/issatay/Desktop/unitree_ws/build/unitree_api -- -j16 -l16
+[0.769s] [  1%] Built target unitree_api__dds_connext_idl
+[0.771s] [ 12%] Built target unitree_api__rosidl_generator_c
+[0.771s] [ 13%] Built target unitree_api__cpp
+[0.772s] failed to create symbolic link '/home/issatay/Desktop/unitree_ws/build/unitree_api/ament_cmake_python/unitree_api/unitree_api' because existing path cannot be removed: Is a directory
+[0.772s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_unitree_api.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_unitree_api] Error 1
+[0.773s] gmake[1]: *** [CMakeFiles/Makefile2:423: CMakeFiles/ament_cmake_python_symlink_unitree_api.dir/all] Error 2
+[0.775s] gmake[1]: *** Waiting for unfinished jobs....
+[0.775s] gmake: *** [Makefile:146: all] Error 2
+[0.782s] Invoked command in '/home/issatay/Desktop/unitree_ws/build/unitree_api' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/issatay/Desktop/unitree_ws/install/g1_gz_spawn:/home/issatay/Desktop/unitree_ws/install/g1_bringup:/opt/ros/humble /usr/bin/cmake --build /home/issatay/Desktop/unitree_ws/build/unitree_api -- -j16 -l16

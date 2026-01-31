@@ -1,0 +1,5 @@
+[  0%] Built target unitree_hg__cpp
+[  1%] Built target unitree_hg__dds_connext_idl
+[ 13%] Built target unitree_hg__rosidl_generator_c
+[ 25%] Built target unitree_hg__rosidl_typesupport_fastrtps_cpp
+[ 37%] Built target unitree_hg__rosidl_typesupport_introspection_cpp

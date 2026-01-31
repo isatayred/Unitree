@@ -1,0 +1,113 @@
+[0.845s] Invoking command in '/home/issatay/Desktop/unitree_ws/build/unitree_sdk2': /usr/bin/cmake --build /home/issatay/Desktop/unitree_ws/build/unitree_sdk2 -- -j16 -l16
+[0.920s] [35m[1mConsolidate compiler generated dependencies of target test_subscriber[0m
+[0.923s] [35m[1mConsolidate compiler generated dependencies of target test_publisher[0m
+[0.928s] [35m[1mConsolidate compiler generated dependencies of target advanced_gamepad[0m
+[0.936s] [35m[1mConsolidate compiler generated dependencies of target test_jsonize[0m
+[0.943s] [35m[1mConsolidate compiler generated dependencies of target go2_sport_client[0m
+[0.946s] [35m[1mConsolidate compiler generated dependencies of target state_machine_example[0m
+[0.947s] [35m[1mConsolidate compiler generated dependencies of target go2_robot_state_client[0m
+[0.953s] [35m[1mConsolidate compiler generated dependencies of target go2_low_level[0m
+[0.954s] [35m[1mConsolidate compiler generated dependencies of target go2_stand_example[0m
+[0.955s] [35m[1mConsolidate compiler generated dependencies of target go2_video_client[0m
+[0.959s] [35m[1mConsolidate compiler generated dependencies of target go2_vui_client[0m
+[0.968s] [35m[1mConsolidate compiler generated dependencies of target h1_loco_client[0m
+[0.977s] [35m[1mConsolidate compiler generated dependencies of target h1_27dof_example[0m
+[0.980s] [35m[1mConsolidate compiler generated dependencies of target h1_low_level_example[0m
+[0.982s] [  1%] [32mBuilding CXX object example/helloworld/CMakeFiles/test_publisher.dir/HelloWorldData.cpp.o[0m
+[0.997s] [  2%] [32m[1mLinking CXX executable ../../bin/go2_robot_state_client[0m
+[1.002s] [  5%] [32m[1mLinking CXX executable ../../bin/advanced_gamepad[0m
+[1.002s] [  5%] [32mBuilding CXX object example/b2/CMakeFiles/b2_sport_client.dir/b2_sport_client.cpp.o[0m
+[1.015s] [  6%] [32m[1mLinking CXX executable ../../bin/test_jsonize[0m
+[1.016s] [  8%] [32m[1mLinking CXX executable ../../bin/state_machine_example[0m
+[1.019s] [  9%] [32mBuilding CXX object example/helloworld/CMakeFiles/test_subscriber.dir/HelloWorldData.cpp.o[0m
+[1.033s] [ 10%] [32m[1mLinking CXX executable ../../bin/go2_sport_client[0m
+[1.035s] [ 12%] [32m[1mLinking CXX executable ../../bin/go2_low_level[0m
+[1.037s] [ 13%] [32m[1mLinking CXX executable ../../bin/go2_stand_example[0m
+[1.040s] [ 14%] [32m[1mLinking CXX executable ../../bin/h1_27dof_example[0m
+[1.041s] [ 16%] [32m[1mLinking CXX executable ../../bin/go2_video_client[0m
+[1.054s] [ 17%] [32mBuilding CXX object example/b2/CMakeFiles/b2_stand_example.dir/b2_stand_example.cpp.o[0m
+[1.059s] [ 18%] [32m[1mLinking CXX executable ../../bin/h1_low_level_example[0m
+[1.063s] [ 20%] [32m[1mLinking CXX executable ../../bin/h1_loco_client[0m
+[1.078s] [ 21%] [32m[1mLinking CXX executable ../../bin/go2_vui_client[0m
+[1.589s] [ 22%] Built target test_jsonize
+[1.624s] [35m[1mConsolidate compiler generated dependencies of target h1_2_ankle_track[0m
+[1.689s] [ 24%] [32m[1mLinking CXX executable ../../bin/h1_2_ankle_track[0m
+[2.176s] [ 25%] Built target advanced_gamepad
+[2.230s] [35m[1mConsolidate compiler generated dependencies of target h1_arm_sdk_dds_example[0m
+[2.310s] [ 27%] [32m[1mLinking CXX executable ../../bin/h1_arm_sdk_dds_example[0m
+[2.310s] [ 28%] Built target h1_27dof_example
+[2.352s] [ 29%] Built target state_machine_example
+[2.367s] [35m[1mConsolidate compiler generated dependencies of target h1_2_arm_sdk_dds_example[0m
+[2.404s] [35m[1mConsolidate compiler generated dependencies of target g1_loco_client[0m
+[2.435s] [ 31%] [32m[1mLinking CXX executable ../../bin/h1_2_arm_sdk_dds_example[0m
+[2.493s] [ 32%] [32m[1mLinking CXX executable ../../bin/g1_loco_client[0m
+[2.581s] [ 33%] Built target go2_low_level
+[2.615s] [ 35%] Built target go2_robot_state_client
+[2.651s] [35m[1mConsolidate compiler generated dependencies of target g1_arm5_sdk_dds_example[0m
+[2.666s] [35m[1mConsolidate compiler generated dependencies of target g1_arm7_sdk_dds_example[0m
+[2.715s] [ 36%] [32m[1mLinking CXX executable ../../bin/g1_arm7_sdk_dds_example[0m
+[2.747s] [ 37%] Built target go2_vui_client
+[2.751s] [ 39%] [32m[1mLinking CXX executable ../../bin/g1_arm5_sdk_dds_example[0m
+[2.795s] [35m[1mConsolidate compiler generated dependencies of target g1_ankle_swing_example[0m
+[2.820s] [ 40%] Built target go2_video_client
+[2.863s] [ 41%] [32m[1mLinking CXX executable ../../bin/g1_ankle_swing_example[0m
+[2.956s] [ 43%] Built target go2_stand_example
+[2.964s] [ 44%] [32mBuilding CXX object example/g1/CMakeFiles/g1_audio_client_example.dir/audio/g1_audio_client_example.cpp.o[0m
+[2.966s] [ 45%] Built target h1_2_ankle_track
+[2.989s] [ 47%] Built target h1_low_level_example
+[3.018s] [35m[1mConsolidate compiler generated dependencies of target g1_dex3_example[0m
+[3.038s] [35m[1mConsolidate compiler generated dependencies of target g1_termination[0m
+[3.054s] [35m[1mConsolidate compiler generated dependencies of target g1_arm_action_example[0m
+[3.091s] [ 48%] [32mBuilding CXX object example/g1/CMakeFiles/g1_dex3_example.dir/dex3/g1_dex3_example.cpp.o[0m
+[3.144s] [ 51%] [32m[1mLinking CXX executable ../../bin/g1_arm_action_example[0m
+[3.146s] [ 51%] [32m[1mLinking CXX executable ../../bin/g1_termination[0m
+[3.179s] [ 52%] Built target go2_sport_client
+[3.244s] [35m[1mConsolidate compiler generated dependencies of target g1_dual_arm_example[0m
+[3.287s] [ 54%] Built target h1_loco_client
+[3.335s] [ 55%] [32m[1mLinking CXX executable ../../bin/g1_dual_arm_example[0m
+[3.394s] [ 56%] [32mBuilding CXX object example/g1/CMakeFiles/g1_agv_client_example.dir/agv/g1_agv_client_example.cpp.o[0m
+[3.511s] [ 58%] Built target h1_arm_sdk_dds_example
+[3.564s] [35m[1mConsolidate compiler generated dependencies of target go2w_sport_client[0m
+[3.632s] [ 59%] [32m[1mLinking CXX executable ../../bin/go2w_sport_client[0m
+[3.851s] [ 60%] Built target g1_arm7_sdk_dds_example
+[3.912s] [35m[1mConsolidate compiler generated dependencies of target go2w_stand_example[0m
+[3.926s] [ 62%] [32m[1mLinking CXX executable ../../bin/test_publisher[0m
+[3.943s] [ 63%] Built target h1_2_arm_sdk_dds_example
+[3.984s] [ 64%] [32m[1mLinking CXX executable ../../bin/go2w_stand_example[0m
+[4.042s] [ 66%] [32mBuilding CXX object example/b2w/CMakeFiles/b2w_sport_client.dir/b2w_sport_client.cpp.o[0m
+[4.099s] [ 67%] Built target g1_ankle_swing_example
+[4.224s] [ 68%] [32mBuilding CXX object example/b2w/CMakeFiles/b2w_stand_example.dir/b2w_stand_example.cpp.o[0m
+[4.379s] [ 70%] Built target g1_arm5_sdk_dds_example
+[4.434s] [ 71%] [32m[1mLinking CXX executable ../../bin/test_subscriber[0m
+[4.517s] [ 72%] Built target g1_termination
+[4.540s] [ 74%] [32mBuilding CXX object example/a2/CMakeFiles/a2_sport_client.dir/a2_sport_client.cpp.o[0m
+[4.629s] [ 75%] Built target g1_loco_client
+[4.677s] [ 77%] [32mBuilding CXX object example/a2/CMakeFiles/a2_sport_state.dir/a2_sport_state.cpp.o[0m
+[4.694s] [35m[1mConsolidate compiler generated dependencies of target a2_audio_client_example[0m
+[4.798s] [ 78%] [32mBuilding CXX object example/a2/CMakeFiles/a2_audio_client_example.dir/audio/a2_audio_client_example.cpp.o[0m
+[5.500s] [ 79%] Built target g1_arm_action_example
+[6.071s] [ 81%] Built target go2w_sport_client
+[6.143s] [ 82%] Built target go2w_stand_example
+[6.560s] [ 83%] Built target g1_dual_arm_example
+[6.567s] [ 85%] Built target test_publisher
+[7.025s] [ 86%] Built target test_subscriber
+[8.970s] [ 87%] [32m[1mLinking CXX executable ../../bin/b2_sport_client[0m
+[9.710s] [ 89%] [32m[1mLinking CXX executable ../../bin/b2w_sport_client[0m
+[9.979s] [ 90%] [32m[1mLinking CXX executable ../../bin/g1_agv_client_example[0m
+[10.116s] [ 90%] Built target b2_sport_client
+[10.537s] [ 90%] Built target b2w_sport_client
+[10.876s] [ 90%] Built target g1_agv_client_example
+[11.756s] [ 91%] [32m[1mLinking CXX executable ../../bin/a2_sport_client[0m
+[12.513s] [ 91%] Built target a2_sport_client
+[15.360s] [ 93%] [32m[1mLinking CXX executable ../../bin/g1_audio_client_example[0m
+[15.993s] [ 94%] [32m[1mLinking CXX executable ../../bin/a2_audio_client_example[0m
+[16.069s] [ 94%] Built target g1_audio_client_example
+[16.739s] [ 94%] Built target a2_audio_client_example
+[16.781s] [ 95%] [32m[1mLinking CXX executable ../../bin/a2_sport_state[0m
+[17.198s] [ 95%] Built target a2_sport_state
+[20.063s] [ 97%] [32m[1mLinking CXX executable ../../bin/b2_stand_example[0m
+[20.308s] [ 98%] [32m[1mLinking CXX executable ../../bin/g1_dex3_example[0m
+[20.677s] [ 98%] Built target b2_stand_example
+[20.798s] [ 98%] Built target g1_dex3_example
+[21.098s] [100%] [32m[1mLinking CXX executable ../../bin/b2w_stand_example[0m
+[21.627s] [100%] Built target b2w_stand_example

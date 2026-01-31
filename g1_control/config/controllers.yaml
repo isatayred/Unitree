@@ -5,12 +5,26 @@ controller_manager:
     joint_state_broadcaster:
       type: joint_state_broadcaster/JointStateBroadcaster
 
-    left_leg_position_controller:
+    legs_position_controller:
       type: position_controllers/JointGroupPositionController
 
-left_leg_position_controller:
+legs_position_controller:
   ros__parameters:
     joints:
-      - left_hip_pitch
-      - left_knee_pitch
-      - left_ankle_pitch
+      - left_hip_pitch_joint
+      - left_hip_roll_joint
+      - left_hip_yaw_joint
+      - left_knee_joint
+      - left_ankle_pitch_joint
+      - left_ankle_roll_joint
+      - right_hip_pitch_joint
+      - right_hip_roll_joint
+      - right_hip_yaw_joint
+      - right_knee_joint
+      - right_ankle_pitch_joint
+      - right_ankle_roll_joint
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity

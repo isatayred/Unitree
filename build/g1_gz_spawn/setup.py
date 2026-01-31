@@ -1,1 +1,0 @@
-/home/issatay/Desktop/unitree_ws/src/g1_gz_spawn/setup.py

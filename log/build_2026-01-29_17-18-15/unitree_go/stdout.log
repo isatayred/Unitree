@@ -1,0 +1,4 @@
+[  0%] Built target unitree_go__dds_connext_idl
+[  0%] Built target unitree_go__cpp
+[ 12%] Built target unitree_go__rosidl_generator_c
+[ 25%] Built target unitree_go__rosidl_typesupport_fastrtps_cpp

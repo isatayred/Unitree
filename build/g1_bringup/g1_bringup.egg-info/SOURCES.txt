@@ -16,4 +16,5 @@ g1_bringup.egg-info/entry_points.txt
 g1_bringup.egg-info/requires.txt
 g1_bringup.egg-info/top_level.txt
 g1_bringup.egg-info/zip-safe
+launch/display_g1.launch.py
 resource/g1_bringup

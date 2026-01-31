@@ -1,0 +1,5 @@
+[  1%] Built target unitree_api__dds_connext_idl
+[ 12%] Built target unitree_api__rosidl_generator_c
+[ 13%] Built target unitree_api__cpp
+[35m[1mConsolidate compiler generated dependencies of target unitree_api__rosidl_typesupport_fastrtps_c[0m
+[ 25%] Built target unitree_api__rosidl_typesupport_fastrtps_c

@@ -106,15 +106,45 @@
       </link>
     </model>
 
+    <!-- Sun - Directional light for realistic outdoor lighting with shadows -->
+    <light name="sun" type="directional">
+      <cast_shadows>true</cast_shadows>
+      <pose>0 0 10 0 0 0</pose>
+      <diffuse>1.0 1.0 1.0 1</diffuse>
+      <specular>0.5 0.5 0.5 1</specular>
+      <direction>-0.5 -0.3 -0.9</direction>
+      <attenuation>
+        <range>1000</range>
+      </attenuation>
+    </light>
+
+    <!-- Ambient light for softer overall illumination -->
+    <light name="ambient_light" type="point">
+      <cast_shadows>false</cast_shadows>
+      <pose>0 0 3 0 0 0</pose>
+      <diffuse>0.4 0.4 0.4 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <attenuation>
+        <range>20</range>
+        <constant>0.5</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+    </light>
+
+    <!-- Physics settings for better simulation -->
+    <physics name="1ms" type="ignored">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1.0</real_time_factor>
+    </physics>
+
+    <!-- Scene settings for better rendering -->
+    <scene>
+      <ambient>0.4 0.4 0.4 1</ambient>
+      <background>0.7 0.8 1.0 1</background>
+      <shadows>true</shadows>
+    </scene>
+
   </world>
-  
-  <!-- Directional light to illuminate the room and enable visible shadows -->
-  <light name="sun" type="directional">
-    <cast_shadows>true</cast_shadows>
-    <pose>0 0 10 0 0 0</pose>
-    <direction>0 0 -1</direction>
-    <diffuse>1 1 1 1</diffuse>
-    <specular>0.2 0.2 0.2 1</specular>
-  </light>
 </sdf>
 

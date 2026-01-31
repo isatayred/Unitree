@@ -1,0 +1,27 @@
+[2.062s] Invoking command in '/home/issatay/Desktop/unitree_ws/build/g1_bringup': PYTHONPATH=/home/issatay/Desktop/unitree_ws/build/g1_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/issatay/Desktop/unitree_ws/install/g1_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/issatay/Desktop/unitree_ws/build/g1_bringup/build
+[2.553s] running develop
+[2.872s] Removing /home/issatay/Desktop/unitree_ws/install/g1_bringup/lib/python3.10/site-packages/g1-bringup.egg-link (link to .)
+[2.986s] Invoked command in '/home/issatay/Desktop/unitree_ws/build/g1_bringup' returned '0': PYTHONPATH=/home/issatay/Desktop/unitree_ws/build/g1_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/issatay/Desktop/unitree_ws/install/g1_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/issatay/Desktop/unitree_ws/build/g1_bringup/build
+[2.987s] Invoking command in '/home/issatay/Desktop/unitree_ws/src/g1_bringup': PYTHONPATH=/home/issatay/Desktop/unitree_ws/build/g1_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/issatay/Desktop/unitree_ws/install/g1_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/g1_bringup build --build-base /home/issatay/Desktop/unitree_ws/build/g1_bringup/build install --record /home/issatay/Desktop/unitree_ws/build/g1_bringup/install.log --single-version-externally-managed install_data --force
+[3.400s] running egg_info
+[3.401s] writing ../../build/g1_bringup/g1_bringup.egg-info/PKG-INFO
+[3.401s] writing dependency_links to ../../build/g1_bringup/g1_bringup.egg-info/dependency_links.txt
+[3.401s] writing entry points to ../../build/g1_bringup/g1_bringup.egg-info/entry_points.txt
+[3.401s] writing requirements to ../../build/g1_bringup/g1_bringup.egg-info/requires.txt
+[3.402s] writing top-level names to ../../build/g1_bringup/g1_bringup.egg-info/top_level.txt
+[3.405s] reading manifest file '../../build/g1_bringup/g1_bringup.egg-info/SOURCES.txt'
+[3.406s] writing manifest file '../../build/g1_bringup/g1_bringup.egg-info/SOURCES.txt'
+[3.406s] running build
+[3.406s] running build_py
+[3.406s] running install
+[3.407s] running install_lib
+[3.408s] creating /home/issatay/Desktop/unitree_ws/install/g1_bringup/lib/python3.10/site-packages/g1_bringup
+[3.409s] copying /home/issatay/Desktop/unitree_ws/build/g1_bringup/build/lib/g1_bringup/__init__.py -> /home/issatay/Desktop/unitree_ws/install/g1_bringup/lib/python3.10/site-packages/g1_bringup
+[3.409s] byte-compiling /home/issatay/Desktop/unitree_ws/install/g1_bringup/lib/python3.10/site-packages/g1_bringup/__init__.py to __init__.cpython-310.pyc
+[3.409s] running install_data
+[3.410s] copying resource/g1_bringup -> /home/issatay/Desktop/unitree_ws/install/g1_bringup/share/ament_index/resource_index/packages
+[3.410s] copying package.xml -> /home/issatay/Desktop/unitree_ws/install/g1_bringup/share/g1_bringup
+[3.410s] running install_egg_info
+[3.413s] Copying ../../build/g1_bringup/g1_bringup.egg-info to /home/issatay/Desktop/unitree_ws/install/g1_bringup/lib/python3.10/site-packages/g1_bringup-0.0.0-py3.10.egg-info
+[3.414s] running install_scripts
+[3.444s] writing list of installed files to '/home/issatay/Desktop/unitree_ws/build/g1_bringup/install.log'

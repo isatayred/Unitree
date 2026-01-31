@@ -1,0 +1,36 @@
+[0.049s] Invoking command in '/home/issatay/Desktop/unitree_ws/build/unitree_go': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/issatay/Desktop/unitree_ws/install/g1_gz_spawn:/home/issatay/Desktop/unitree_ws/install/g1_bringup:/opt/ros/humble /usr/bin/cmake --build /home/issatay/Desktop/unitree_ws/build/unitree_go -- -j16 -l16
+[0.945s] [35m[1mConsolidate compiler generated dependencies of target unitree_go__rosidl_generator_c[0m
+[0.946s] [  0%] Built target unitree_go__dds_connext_idl
+[0.947s] [  0%] Built target unitree_go__cpp
+[0.947s] [  2%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/go2_front_video_data__functions.c.o[0m
+[0.947s] [  2%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/bms_state__functions.c.o[0m
+[0.947s] [  2%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/error__functions.c.o[0m
+[0.947s] [  3%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/audio_data__functions.c.o[0m
+[0.947s] [  3%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/height_map__functions.c.o[0m
+[0.947s] [  4%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/imu_state__functions.c.o[0m
+[0.947s] [  4%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/bms_cmd__functions.c.o[0m
+[0.947s] [  4%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/interface_config__functions.c.o[0m
+[0.947s] [  4%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/low_state__functions.c.o[0m
+[0.947s] [  4%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/low_cmd__functions.c.o[0m
+[0.947s] [  5%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/lidar_state__functions.c.o[0m
+[0.947s] [  6%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/path_point__functions.c.o[0m
+[0.948s] [  8%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/motor_state__functions.c.o[0m
+[0.948s] [  8%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/motor_cmds__functions.c.o[0m
+[0.948s] [  8%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/motor_states__functions.c.o[0m
+[0.948s] [  8%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/motor_cmd__functions.c.o[0m
+[0.948s] [  8%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/req__functions.c.o[0m
+[0.948s] [  9%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/res__functions.c.o[0m
+[0.948s] [  9%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/sport_mode_cmd__functions.c.o[0m
+[0.948s] [ 10%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/sport_mode_state__functions.c.o[0m
+[0.948s] [ 11%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/uwb_state__functions.c.o[0m
+[0.948s] [ 11%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/uwb_switch__functions.c.o[0m
+[0.948s] [ 11%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/time_spec__functions.c.o[0m
+[0.948s] [ 11%] [32mBuilding C object CMakeFiles/unitree_go__rosidl_generator_c.dir/rosidl_generator_c/unitree_go/msg/detail/wireless_controller__functions.c.o[0m
+[0.948s] [ 12%] [32m[1mLinking C shared library libunitree_go__rosidl_generator_c.so[0m
+[0.948s] [ 12%] Built target unitree_go__rosidl_generator_c
+[0.951s] failed to create symbolic link '/home/issatay/Desktop/unitree_ws/build/unitree_go/ament_cmake_python/unitree_go/unitree_go' because existing path cannot be removed: Is a directory
+[0.951s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_unitree_go.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_unitree_go] Error 1
+[0.952s] gmake[1]: *** [CMakeFiles/Makefile2:423: CMakeFiles/ament_cmake_python_symlink_unitree_go.dir/all] Error 2
+[0.952s] gmake[1]: *** Waiting for unfinished jobs....
+[0.952s] gmake: *** [Makefile:146: all] Error 2
+[0.987s] Invoked command in '/home/issatay/Desktop/unitree_ws/build/unitree_go' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/issatay/Desktop/unitree_ws/install/g1_gz_spawn:/home/issatay/Desktop/unitree_ws/install/g1_bringup:/opt/ros/humble /usr/bin/cmake --build /home/issatay/Desktop/unitree_ws/build/unitree_go -- -j16 -l16

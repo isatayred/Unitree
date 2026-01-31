@@ -1,0 +1,12 @@
+[  0%] Built target unitree_go__cpp
+[  0%] Built target unitree_go__dds_connext_idl
+[ 12%] Built target unitree_go__rosidl_generator_c
+[35m[1mConsolidate compiler generated dependencies of target unitree_go__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target unitree_go__rosidl_typesupport_introspection_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target unitree_go__rosidl_typesupport_introspection_c[0m
+[35m[1mConsolidate compiler generated dependencies of target unitree_go__rosidl_typesupport_fastrtps_c[0m
+[ 25%] Built target unitree_go__rosidl_typesupport_fastrtps_cpp
+[ 37%] Built target unitree_go__rosidl_typesupport_introspection_c
+[ 50%] Built target unitree_go__rosidl_typesupport_cpp
+[ 63%] Built target unitree_go__rosidl_typesupport_introspection_cpp
+[ 75%] Built target unitree_go__rosidl_typesupport_fastrtps_c

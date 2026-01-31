@@ -1,0 +1,17 @@
+[0.063s] Invoking command in '/home/issatay/Desktop/unitree_ws/build/unitree_hg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/issatay/Desktop/unitree_ws/install/g1_gz_spawn:/home/issatay/Desktop/unitree_ws/install/g1_description:/home/issatay/Desktop/unitree_ws/install/g1_bringup:/opt/ros/humble /usr/bin/cmake --build /home/issatay/Desktop/unitree_ws/build/unitree_hg -- -j16 -l16
+[2.017s] [  1%] Built target unitree_hg__dds_connext_idl
+[2.017s] [ 13%] Built target unitree_hg__rosidl_generator_c
+[2.032s] [ 13%] Built target unitree_hg__cpp
+[2.032s] [35m[1mConsolidate compiler generated dependencies of target unitree_hg__rosidl_typesupport_c[0m
+[2.032s] [35m[1mConsolidate compiler generated dependencies of target unitree_hg__rosidl_typesupport_introspection_c[0m
+[2.032s] [ 24%] Built target unitree_hg__rosidl_typesupport_fastrtps_c
+[2.032s] [ 36%] Built target unitree_hg__rosidl_typesupport_fastrtps_cpp
+[2.032s] [ 59%] Built target unitree_hg__rosidl_typesupport_c
+[2.033s] [ 59%] Built target unitree_hg__rosidl_typesupport_introspection_cpp
+[2.033s] [ 70%] Built target unitree_hg__rosidl_typesupport_introspection_c
+[2.034s] failed to create symbolic link '/home/issatay/Desktop/unitree_ws/build/unitree_hg/ament_cmake_python/unitree_hg/unitree_hg' because existing path cannot be removed: Is a directory
+[2.034s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_unitree_hg.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_unitree_hg] Error 1
+[2.034s] gmake[1]: *** [CMakeFiles/Makefile2:423: CMakeFiles/ament_cmake_python_symlink_unitree_hg.dir/all] Error 2
+[2.034s] gmake[1]: *** Waiting for unfinished jobs....
+[2.034s] gmake: *** [Makefile:146: all] Error 2
+[2.093s] Invoked command in '/home/issatay/Desktop/unitree_ws/build/unitree_hg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/issatay/Desktop/unitree_ws/install/g1_gz_spawn:/home/issatay/Desktop/unitree_ws/install/g1_description:/home/issatay/Desktop/unitree_ws/install/g1_bringup:/opt/ros/humble /usr/bin/cmake --build /home/issatay/Desktop/unitree_ws/build/unitree_hg -- -j16 -l16

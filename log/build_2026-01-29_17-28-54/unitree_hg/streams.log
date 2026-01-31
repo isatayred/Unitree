@@ -1,0 +1,40 @@
+[0.044s] Invoking command in '/home/issatay/Desktop/unitree_ws/build/unitree_hg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/issatay/Desktop/unitree_ws/install/g1_gz_spawn:/home/issatay/Desktop/unitree_ws/install/g1_bringup:/opt/ros/humble /usr/bin/cmake --build /home/issatay/Desktop/unitree_ws/build/unitree_hg -- -j16 -l16
+[0.834s] [ 12%] Built target unitree_hg__rosidl_generator_c
+[0.834s] [ 13%] Built target unitree_hg__dds_connext_idl
+[0.835s] [ 13%] Built target unitree_hg__cpp
+[0.835s] [35m[1mConsolidate compiler generated dependencies of target unitree_hg__rosidl_typesupport_introspection_c[0m
+[0.835s] [35m[1mConsolidate compiler generated dependencies of target unitree_hg__rosidl_typesupport_c[0m
+[0.835s] [35m[1mConsolidate compiler generated dependencies of target unitree_hg__rosidl_typesupport_fastrtps_c[0m
+[0.835s] [ 14%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/bms_state__type_support.cpp.o[0m
+[0.835s] [ 15%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/hand_cmd__type_support.cpp.o[0m
+[0.835s] [ 16%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/hand_cmd__type_support.c.o[0m
+[0.835s] [ 17%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/bms_cmd__type_support.c.o[0m
+[0.836s] [ 18%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/bms_cmd__type_support.cpp.o[0m
+[0.836s] [ 19%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/hand_state__type_support.c.o[0m
+[0.836s] [ 20%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/bms_state__type_support.c.o[0m
+[0.836s] [ 21%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/low_state__type_support.c.o[0m
+[0.836s] [ 22%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/hand_state__type_support.cpp.o[0m
+[0.836s] [ 23%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/low_state__type_support.cpp.o[0m
+[0.836s] [ 24%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/imu_state__type_support.cpp.o[0m
+[0.836s] [ 25%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/main_board_state__type_support.cpp.o[0m
+[0.837s] [ 26%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/low_cmd__type_support.cpp.o[0m
+[0.837s] [ 27%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/imu_state__type_support.c.o[0m
+[0.837s] [ 28%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/low_cmd__type_support.c.o[0m
+[0.837s] [ 39%] Built target unitree_hg__rosidl_typesupport_fastrtps_c
+[0.837s] [ 39%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/motor_cmd__type_support.c.o[0m
+[0.837s] [ 40%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/main_board_state__type_support.c.o[0m
+[0.837s] [ 40%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/motor_cmd__type_support.cpp.o[0m
+[0.837s] [ 41%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/motor_state__type_support.cpp.o[0m
+[0.837s] [ 42%] [32mBuilding CXX object CMakeFiles/unitree_hg__rosidl_typesupport_c.dir/rosidl_typesupport_c/unitree_hg/msg/press_sensor_state__type_support.cpp.o[0m
+[0.837s] [ 43%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/motor_state__type_support.c.o[0m
+[0.838s] [ 44%] [32mBuilding C object CMakeFiles/unitree_hg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/unitree_hg/msg/detail/press_sensor_state__type_support.c.o[0m
+[0.838s] [ 45%] [32m[1mLinking CXX shared library libunitree_hg__rosidl_typesupport_c.so[0m
+[0.838s] [ 46%] [32m[1mLinking C shared library libunitree_hg__rosidl_typesupport_introspection_c.so[0m
+[0.838s] [ 46%] Built target unitree_hg__rosidl_typesupport_c
+[0.838s] [ 46%] Built target unitree_hg__rosidl_typesupport_introspection_c
+[0.838s] failed to create symbolic link '/home/issatay/Desktop/unitree_ws/build/unitree_hg/ament_cmake_python/unitree_hg/unitree_hg' because existing path cannot be removed: Is a directory
+[0.838s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_unitree_hg.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_unitree_hg] Error 1
+[0.838s] gmake[1]: *** [CMakeFiles/Makefile2:423: CMakeFiles/ament_cmake_python_symlink_unitree_hg.dir/all] Error 2
+[0.838s] gmake[1]: *** Waiting for unfinished jobs....
+[0.838s] gmake: *** [Makefile:146: all] Error 2
+[0.858s] Invoked command in '/home/issatay/Desktop/unitree_ws/build/unitree_hg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/issatay/Desktop/unitree_ws/install/g1_gz_spawn:/home/issatay/Desktop/unitree_ws/install/g1_bringup:/opt/ros/humble /usr/bin/cmake --build /home/issatay/Desktop/unitree_ws/build/unitree_hg -- -j16 -l16

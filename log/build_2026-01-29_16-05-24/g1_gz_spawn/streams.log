@@ -1,0 +1,22 @@
+[1.548s] Invoking command in '/home/issatay/Desktop/unitree_ws/build/g1_gz_spawn': PYTHONPATH=/home/issatay/Desktop/unitree_ws/build/g1_gz_spawn/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/issatay/Desktop/unitree_ws/install/g1_gz_spawn/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/issatay/Desktop/unitree_ws/build/g1_gz_spawn/build --no-deps symlink_data --force
+[1.966s] running develop
+[2.243s] running egg_info
+[2.243s] writing g1_gz_spawn.egg-info/PKG-INFO
+[2.243s] writing dependency_links to g1_gz_spawn.egg-info/dependency_links.txt
+[2.244s] writing requirements to g1_gz_spawn.egg-info/requires.txt
+[2.244s] writing top-level names to g1_gz_spawn.egg-info/top_level.txt
+[2.248s] reading manifest file 'g1_gz_spawn.egg-info/SOURCES.txt'
+[2.249s] writing manifest file 'g1_gz_spawn.egg-info/SOURCES.txt'
+[2.251s] running build_ext
+[2.251s] Creating /home/issatay/Desktop/unitree_ws/install/g1_gz_spawn/lib/python3.10/site-packages/g1-gz-spawn.egg-link (link to .)
+[2.252s] 
+[2.252s] Installed /home/issatay/Desktop/unitree_ws/build/g1_gz_spawn
+[2.253s] running symlink_data
+[2.253s] symbolically linking /home/issatay/Desktop/unitree_ws/build/g1_gz_spawn/resource/g1_gz_spawn -> /home/issatay/Desktop/unitree_ws/install/g1_gz_spawn/share/ament_index/resource_index/packages
+[2.253s] symbolically linking /home/issatay/Desktop/unitree_ws/build/g1_gz_spawn/package.xml -> /home/issatay/Desktop/unitree_ws/install/g1_gz_spawn/share/g1_gz_spawn
+[2.253s] symbolically linking /home/issatay/Desktop/unitree_ws/build/g1_gz_spawn/launch/spawn_g1.launch.py -> /home/issatay/Desktop/unitree_ws/install/g1_gz_spawn/share/g1_gz_spawn/launch
+[2.253s] symbolically linking /home/issatay/Desktop/unitree_ws/build/g1_gz_spawn/launch/spawn_g1_with_box.launch.py -> /home/issatay/Desktop/unitree_ws/install/g1_gz_spawn/share/g1_gz_spawn/launch
+[2.254s] symbolically linking /home/issatay/Desktop/unitree_ws/build/g1_gz_spawn/worlds/room_4x4.sdf -> /home/issatay/Desktop/unitree_ws/install/g1_gz_spawn/share/g1_gz_spawn/worlds
+[2.254s] symbolically linking /home/issatay/Desktop/unitree_ws/build/g1_gz_spawn/scripts/publish_box_pose.py -> /home/issatay/Desktop/unitree_ws/install/g1_gz_spawn/share/g1_gz_spawn/scripts
+[2.254s] symbolically linking /home/issatay/Desktop/unitree_ws/build/g1_gz_spawn/scripts/check_sim_env.py -> /home/issatay/Desktop/unitree_ws/install/g1_gz_spawn/share/g1_gz_spawn/scripts
+[2.254s] symbolically linking /home/issatay/Desktop/unitree_ws/build/g1_gz_spawn/models/box.sdf -> /home/issatay/Desktop/unitree_ws/install/g1_gz_spawn/share/g1_gz_spawn/models

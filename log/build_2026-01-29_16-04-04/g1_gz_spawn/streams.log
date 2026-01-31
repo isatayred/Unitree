@@ -1,0 +1,33 @@
+[2.445s] Invoking command in '/home/issatay/Desktop/unitree_ws/build/g1_gz_spawn': PYTHONPATH=/home/issatay/Desktop/unitree_ws/build/g1_gz_spawn/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/issatay/Desktop/unitree_ws/install/g1_gz_spawn/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/issatay/Desktop/unitree_ws/build/g1_gz_spawn/build
+[3.375s] running develop
+[4.015s] Removing /home/issatay/Desktop/unitree_ws/install/g1_gz_spawn/lib/python3.10/site-packages/g1-gz-spawn.egg-link (link to .)
+[4.157s] Invoked command in '/home/issatay/Desktop/unitree_ws/build/g1_gz_spawn' returned '0': PYTHONPATH=/home/issatay/Desktop/unitree_ws/build/g1_gz_spawn/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/issatay/Desktop/unitree_ws/install/g1_gz_spawn/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/issatay/Desktop/unitree_ws/build/g1_gz_spawn/build
+[4.158s] Invoking command in '/home/issatay/Desktop/unitree_ws/src/g1_gz_spawn': PYTHONPATH=/home/issatay/Desktop/unitree_ws/build/g1_gz_spawn/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/issatay/Desktop/unitree_ws/install/g1_gz_spawn/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/g1_gz_spawn build --build-base /home/issatay/Desktop/unitree_ws/build/g1_gz_spawn/build install --record /home/issatay/Desktop/unitree_ws/build/g1_gz_spawn/install.log --single-version-externally-managed install_data --force
+[5.919s] running egg_info
+[5.931s] writing ../../build/g1_gz_spawn/g1_gz_spawn.egg-info/PKG-INFO
+[5.932s] writing dependency_links to ../../build/g1_gz_spawn/g1_gz_spawn.egg-info/dependency_links.txt
+[5.935s] writing requirements to ../../build/g1_gz_spawn/g1_gz_spawn.egg-info/requires.txt
+[5.936s] writing top-level names to ../../build/g1_gz_spawn/g1_gz_spawn.egg-info/top_level.txt
+[5.954s] reading manifest file '../../build/g1_gz_spawn/g1_gz_spawn.egg-info/SOURCES.txt'
+[5.976s] writing manifest file '../../build/g1_gz_spawn/g1_gz_spawn.egg-info/SOURCES.txt'
+[5.976s] running build
+[5.977s] running build_py
+[5.977s] copying g1_gz_spawn/__init__.py -> /home/issatay/Desktop/unitree_ws/build/g1_gz_spawn/build/lib/g1_gz_spawn
+[5.977s] running install
+[5.977s] running install_lib
+[5.985s] creating /home/issatay/Desktop/unitree_ws/install/g1_gz_spawn/lib/python3.10/site-packages/g1_gz_spawn
+[5.985s] copying /home/issatay/Desktop/unitree_ws/build/g1_gz_spawn/build/lib/g1_gz_spawn/__init__.py -> /home/issatay/Desktop/unitree_ws/install/g1_gz_spawn/lib/python3.10/site-packages/g1_gz_spawn
+[5.985s] byte-compiling /home/issatay/Desktop/unitree_ws/install/g1_gz_spawn/lib/python3.10/site-packages/g1_gz_spawn/__init__.py to __init__.cpython-310.pyc
+[5.985s] running install_data
+[5.985s] copying resource/g1_gz_spawn -> /home/issatay/Desktop/unitree_ws/install/g1_gz_spawn/share/ament_index/resource_index/packages
+[6.002s] copying package.xml -> /home/issatay/Desktop/unitree_ws/install/g1_gz_spawn/share/g1_gz_spawn
+[6.002s] copying launch/spawn_g1.launch.py -> /home/issatay/Desktop/unitree_ws/install/g1_gz_spawn/share/g1_gz_spawn/launch
+[6.008s] copying launch/spawn_g1_with_box.launch.py -> /home/issatay/Desktop/unitree_ws/install/g1_gz_spawn/share/g1_gz_spawn/launch
+[6.008s] copying worlds/room_4x4.sdf -> /home/issatay/Desktop/unitree_ws/install/g1_gz_spawn/share/g1_gz_spawn/worlds
+[6.009s] copying scripts/publish_box_pose.py -> /home/issatay/Desktop/unitree_ws/install/g1_gz_spawn/share/g1_gz_spawn/scripts
+[6.009s] copying scripts/check_sim_env.py -> /home/issatay/Desktop/unitree_ws/install/g1_gz_spawn/share/g1_gz_spawn/scripts
+[6.009s] copying models/box.sdf -> /home/issatay/Desktop/unitree_ws/install/g1_gz_spawn/share/g1_gz_spawn/models
+[6.009s] running install_egg_info
+[6.013s] Copying ../../build/g1_gz_spawn/g1_gz_spawn.egg-info to /home/issatay/Desktop/unitree_ws/install/g1_gz_spawn/lib/python3.10/site-packages/g1_gz_spawn-0.0.0-py3.10.egg-info
+[6.030s] running install_scripts
+[6.265s] writing list of installed files to '/home/issatay/Desktop/unitree_ws/build/g1_gz_spawn/install.log'

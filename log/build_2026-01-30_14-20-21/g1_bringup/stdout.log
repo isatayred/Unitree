@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing g1_bringup.egg-info/PKG-INFO
+writing dependency_links to g1_bringup.egg-info/dependency_links.txt
+writing entry points to g1_bringup.egg-info/entry_points.txt
+writing requirements to g1_bringup.egg-info/requires.txt
+writing top-level names to g1_bringup.egg-info/top_level.txt
+reading manifest file 'g1_bringup.egg-info/SOURCES.txt'
+writing manifest file 'g1_bringup.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/issatay/Desktop/unitree_ws/install/g1_bringup/lib/python3.10/site-packages/g1-bringup.egg-link (link to .)
+
+Installed /home/issatay/Desktop/unitree_ws/build/g1_bringup
+running symlink_data
+symbolically linking /home/issatay/Desktop/unitree_ws/build/g1_bringup/resource/g1_bringup -> /home/issatay/Desktop/unitree_ws/install/g1_bringup/share/ament_index/resource_index/packages
+symbolically linking /home/issatay/Desktop/unitree_ws/build/g1_bringup/package.xml -> /home/issatay/Desktop/unitree_ws/install/g1_bringup/share/g1_bringup
+creating /home/issatay/Desktop/unitree_ws/install/g1_bringup/share/g1_bringup/launch

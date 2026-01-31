@@ -1,0 +1,112 @@
+[35m[1mConsolidate compiler generated dependencies of target test_subscriber[0m
+[35m[1mConsolidate compiler generated dependencies of target test_publisher[0m
+[35m[1mConsolidate compiler generated dependencies of target advanced_gamepad[0m
+[35m[1mConsolidate compiler generated dependencies of target test_jsonize[0m
+[35m[1mConsolidate compiler generated dependencies of target go2_sport_client[0m
+[35m[1mConsolidate compiler generated dependencies of target state_machine_example[0m
+[35m[1mConsolidate compiler generated dependencies of target go2_robot_state_client[0m
+[35m[1mConsolidate compiler generated dependencies of target go2_low_level[0m
+[35m[1mConsolidate compiler generated dependencies of target go2_stand_example[0m
+[35m[1mConsolidate compiler generated dependencies of target go2_video_client[0m
+[35m[1mConsolidate compiler generated dependencies of target go2_vui_client[0m
+[35m[1mConsolidate compiler generated dependencies of target h1_loco_client[0m
+[35m[1mConsolidate compiler generated dependencies of target h1_27dof_example[0m
+[35m[1mConsolidate compiler generated dependencies of target h1_low_level_example[0m
+[  1%] [32mBuilding CXX object example/helloworld/CMakeFiles/test_publisher.dir/HelloWorldData.cpp.o[0m
+[  2%] [32m[1mLinking CXX executable ../../bin/go2_robot_state_client[0m
+[  5%] [32m[1mLinking CXX executable ../../bin/advanced_gamepad[0m
+[  5%] [32mBuilding CXX object example/b2/CMakeFiles/b2_sport_client.dir/b2_sport_client.cpp.o[0m
+[  6%] [32m[1mLinking CXX executable ../../bin/test_jsonize[0m
+[  8%] [32m[1mLinking CXX executable ../../bin/state_machine_example[0m
+[  9%] [32mBuilding CXX object example/helloworld/CMakeFiles/test_subscriber.dir/HelloWorldData.cpp.o[0m
+[ 10%] [32m[1mLinking CXX executable ../../bin/go2_sport_client[0m
+[ 12%] [32m[1mLinking CXX executable ../../bin/go2_low_level[0m
+[ 13%] [32m[1mLinking CXX executable ../../bin/go2_stand_example[0m
+[ 14%] [32m[1mLinking CXX executable ../../bin/h1_27dof_example[0m
+[ 16%] [32m[1mLinking CXX executable ../../bin/go2_video_client[0m
+[ 17%] [32mBuilding CXX object example/b2/CMakeFiles/b2_stand_example.dir/b2_stand_example.cpp.o[0m
+[ 18%] [32m[1mLinking CXX executable ../../bin/h1_low_level_example[0m
+[ 20%] [32m[1mLinking CXX executable ../../bin/h1_loco_client[0m
+[ 21%] [32m[1mLinking CXX executable ../../bin/go2_vui_client[0m
+[ 22%] Built target test_jsonize
+[35m[1mConsolidate compiler generated dependencies of target h1_2_ankle_track[0m
+[ 24%] [32m[1mLinking CXX executable ../../bin/h1_2_ankle_track[0m
+[ 25%] Built target advanced_gamepad
+[35m[1mConsolidate compiler generated dependencies of target h1_arm_sdk_dds_example[0m
+[ 27%] [32m[1mLinking CXX executable ../../bin/h1_arm_sdk_dds_example[0m
+[ 28%] Built target h1_27dof_example
+[ 29%] Built target state_machine_example
+[35m[1mConsolidate compiler generated dependencies of target h1_2_arm_sdk_dds_example[0m
+[35m[1mConsolidate compiler generated dependencies of target g1_loco_client[0m
+[ 31%] [32m[1mLinking CXX executable ../../bin/h1_2_arm_sdk_dds_example[0m
+[ 32%] [32m[1mLinking CXX executable ../../bin/g1_loco_client[0m
+[ 33%] Built target go2_low_level
+[ 35%] Built target go2_robot_state_client
+[35m[1mConsolidate compiler generated dependencies of target g1_arm5_sdk_dds_example[0m
+[35m[1mConsolidate compiler generated dependencies of target g1_arm7_sdk_dds_example[0m
+[ 36%] [32m[1mLinking CXX executable ../../bin/g1_arm7_sdk_dds_example[0m
+[ 37%] Built target go2_vui_client
+[ 39%] [32m[1mLinking CXX executable ../../bin/g1_arm5_sdk_dds_example[0m
+[35m[1mConsolidate compiler generated dependencies of target g1_ankle_swing_example[0m
+[ 40%] Built target go2_video_client
+[ 41%] [32m[1mLinking CXX executable ../../bin/g1_ankle_swing_example[0m
+[ 43%] Built target go2_stand_example
+[ 44%] [32mBuilding CXX object example/g1/CMakeFiles/g1_audio_client_example.dir/audio/g1_audio_client_example.cpp.o[0m
+[ 45%] Built target h1_2_ankle_track
+[ 47%] Built target h1_low_level_example
+[35m[1mConsolidate compiler generated dependencies of target g1_dex3_example[0m
+[35m[1mConsolidate compiler generated dependencies of target g1_termination[0m
+[35m[1mConsolidate compiler generated dependencies of target g1_arm_action_example[0m
+[ 48%] [32mBuilding CXX object example/g1/CMakeFiles/g1_dex3_example.dir/dex3/g1_dex3_example.cpp.o[0m
+[ 51%] [32m[1mLinking CXX executable ../../bin/g1_arm_action_example[0m
+[ 51%] [32m[1mLinking CXX executable ../../bin/g1_termination[0m
+[ 52%] Built target go2_sport_client
+[35m[1mConsolidate compiler generated dependencies of target g1_dual_arm_example[0m
+[ 54%] Built target h1_loco_client
+[ 55%] [32m[1mLinking CXX executable ../../bin/g1_dual_arm_example[0m
+[ 56%] [32mBuilding CXX object example/g1/CMakeFiles/g1_agv_client_example.dir/agv/g1_agv_client_example.cpp.o[0m
+[ 58%] Built target h1_arm_sdk_dds_example
+[35m[1mConsolidate compiler generated dependencies of target go2w_sport_client[0m
+[ 59%] [32m[1mLinking CXX executable ../../bin/go2w_sport_client[0m
+[ 60%] Built target g1_arm7_sdk_dds_example
+[35m[1mConsolidate compiler generated dependencies of target go2w_stand_example[0m
+[ 62%] [32m[1mLinking CXX executable ../../bin/test_publisher[0m
+[ 63%] Built target h1_2_arm_sdk_dds_example
+[ 64%] [32m[1mLinking CXX executable ../../bin/go2w_stand_example[0m
+[ 66%] [32mBuilding CXX object example/b2w/CMakeFiles/b2w_sport_client.dir/b2w_sport_client.cpp.o[0m
+[ 67%] Built target g1_ankle_swing_example
+[ 68%] [32mBuilding CXX object example/b2w/CMakeFiles/b2w_stand_example.dir/b2w_stand_example.cpp.o[0m
+[ 70%] Built target g1_arm5_sdk_dds_example
+[ 71%] [32m[1mLinking CXX executable ../../bin/test_subscriber[0m
+[ 72%] Built target g1_termination
+[ 74%] [32mBuilding CXX object example/a2/CMakeFiles/a2_sport_client.dir/a2_sport_client.cpp.o[0m
+[ 75%] Built target g1_loco_client
+[ 77%] [32mBuilding CXX object example/a2/CMakeFiles/a2_sport_state.dir/a2_sport_state.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target a2_audio_client_example[0m
+[ 78%] [32mBuilding CXX object example/a2/CMakeFiles/a2_audio_client_example.dir/audio/a2_audio_client_example.cpp.o[0m
+[ 79%] Built target g1_arm_action_example
+[ 81%] Built target go2w_sport_client
+[ 82%] Built target go2w_stand_example
+[ 83%] Built target g1_dual_arm_example
+[ 85%] Built target test_publisher
+[ 86%] Built target test_subscriber
+[ 87%] [32m[1mLinking CXX executable ../../bin/b2_sport_client[0m
+[ 89%] [32m[1mLinking CXX executable ../../bin/b2w_sport_client[0m
+[ 90%] [32m[1mLinking CXX executable ../../bin/g1_agv_client_example[0m
+[ 90%] Built target b2_sport_client
+[ 90%] Built target b2w_sport_client
+[ 90%] Built target g1_agv_client_example
+[ 91%] [32m[1mLinking CXX executable ../../bin/a2_sport_client[0m
+[ 91%] Built target a2_sport_client
+[ 93%] [32m[1mLinking CXX executable ../../bin/g1_audio_client_example[0m
+[ 94%] [32m[1mLinking CXX executable ../../bin/a2_audio_client_example[0m
+[ 94%] Built target g1_audio_client_example
+[ 94%] Built target a2_audio_client_example
+[ 95%] [32m[1mLinking CXX executable ../../bin/a2_sport_state[0m
+[ 95%] Built target a2_sport_state
+[ 97%] [32m[1mLinking CXX executable ../../bin/b2_stand_example[0m
+[ 98%] [32m[1mLinking CXX executable ../../bin/g1_dex3_example[0m
+[ 98%] Built target b2_stand_example
+[ 98%] Built target g1_dex3_example
+[100%] [32m[1mLinking CXX executable ../../bin/b2w_stand_example[0m
+[100%] Built target b2w_stand_example
